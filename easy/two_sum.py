@@ -1,6 +1,7 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Big O should be < O(n^2)
+        # Can be done by a simple list manipulation
         for i in range(len(nums)):
             t = target - nums[i]
             
