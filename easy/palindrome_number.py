@@ -22,4 +22,13 @@ class Solution:
         
         # Solution #2 with converting the integer into a string.
         # Runtime: 76 ms, Memory usage: 14.2 MB
+        """
+        xlist = [str(i) for i in str(x)]
+        ylist = [str(i) for i in str(x)]
+        xlist.reverse()
+        if xlist == ylist:
+            return True
+        else:
+            return False
+        """
         
