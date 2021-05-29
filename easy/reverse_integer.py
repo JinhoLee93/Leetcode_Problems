@@ -1,3 +1,4 @@
+# Runtime: 28 ms, Memory usage: 14.3 MB
 class Solution:
     def reverse(self, x: int) -> int:
         digits = list(str(x))
