@@ -10,16 +10,16 @@ class Solution:
             digits.pop()
             digits.insert(0, temp)
                 
-        digit = str()
+        number = str()
         
         for i in range(len(digits)):
-            digit += digits[i]
+            number += digits[i]
         
         digit = int(digit)
         
-        # edge case #2 (The digit must be bigger than -2^31 or smaller than 2^31 - 1.)
-        if digit < (-2)**31 or digit > (2**31 - 1):
-            digit = 0
+        # edge case #2 (The numger must be bigger than -2^31 or smaller than 2^31 - 1.)
+        if number < (-2)**31 or number > (2**31 - 1):
+            number = 0
             
             
-        return digit
+        return number
