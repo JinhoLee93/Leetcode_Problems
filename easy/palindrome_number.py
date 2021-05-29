@@ -25,6 +25,7 @@ class Solution:
         
         # Solution #2 with converting the integer into a string.
         # Runtime: 76 ms, Memory usage: 14.2 MB
+        
         """
         # Easy list apprehension
         xlist = [str(i) for i in str(x)]
