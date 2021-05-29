@@ -1,3 +1,4 @@
+# Runtime: 800 ms, Memory: 14.8 MB
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Big O should be < O(n^2)
