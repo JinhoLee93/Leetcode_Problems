@@ -1,4 +1,5 @@
 # I could've solved this problem with little or no effort with list comprehension, yet I wanted to practice trie data tree.
+# Runtime: 64 ms, Memory usage: 14.4 MB
 class Node:
     def __init__(self, children, isShared, count):
         self.children = children
