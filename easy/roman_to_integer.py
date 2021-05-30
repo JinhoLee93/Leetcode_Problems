@@ -1,3 +1,4 @@
+# Runtime: 48 ms, Memory usage: 14.3 MB
 class Solution:
     def romanToInt(self, s: str) -> int:
         # Turns the given Roman number into an integer 
