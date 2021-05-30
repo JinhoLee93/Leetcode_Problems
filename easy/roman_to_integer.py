@@ -12,13 +12,18 @@ class Solution:
             "M": 1000
         }
         
-        for i in range(len(roman) - 1):
-            if switch[roman[i]] < switch[roman[i + 1]]:
-                if switch[roman[i]] == 1:
-                    res -= 1
-                
-                if switch[roman[i]] == 10:
-                    res -= 10
-                
-                if switch[roman[i]] == 100:
-                    res -= 100
+        for i in range(len(roman)):
+            if i < len(roman) - 1:
+                if switch[roman[i]] < switch[roman[i + 1]]:
+                    if switch[roman[i]] == 1:
+                        res -= 2
+
+                    if switch[roman[i]] == 10:
+                        res -= 20
+
+                    if switch[roman[i]] == 100:
+                        res -= 200
+            
+            res += switch[roman[i]]
+        
+        return res
