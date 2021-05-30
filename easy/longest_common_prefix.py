@@ -1,3 +1,4 @@
+# I could've solved this problem with little or no effort with list comprehension, yet I wanted to practice trie data tree.
 class Node:
     def __init__(self, children, isShared, count):
         self.children = children
