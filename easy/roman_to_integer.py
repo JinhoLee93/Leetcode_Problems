@@ -1,5 +1,6 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
+        # Turns the given Roman number into an integer 
         res = 0
         roman = [str(i) for i in str(s)]
         switch = {
@@ -14,6 +15,7 @@ class Solution:
         
         for i in range(len(roman)):
             if i < len(roman) - 1:
+                # Edge cases
                 if switch[roman[i]] < switch[roman[i + 1]]:
                     if switch[roman[i]] == 1:
                         res -= 2
