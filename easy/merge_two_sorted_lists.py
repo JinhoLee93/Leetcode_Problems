@@ -1,3 +1,6 @@
+# Runtime: 36 ms, Memory usage: 14.3 MB
+# Merge lists with a simple recursion.
+
 #Definition for singly-linked list.
 #class ListNode:
 #    def __init__(self, val=0, next=None):
