@@ -8,16 +8,14 @@ class Solution:
         for i in pa:
             if i == '(' or i == '[' or i == '{':
                 stack.append(i)
-            
-            elif i == ')' or i == ']' or i == '}':
-                                    
+                
+            elif i == ')' or i == ']' or i == '}':     
                 if len(stack) < 1:
                     return False
                 
                 if i == ')':
                     if stack[-1] == '(': 
                         stack.pop()
-                        
                     else:
                         return False
                     
