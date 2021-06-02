@@ -1,3 +1,4 @@
+# Runtime: 44 ms, Memory usage: 14.9 MB
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if target in nums:
