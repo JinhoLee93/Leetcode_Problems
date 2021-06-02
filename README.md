@@ -8,7 +8,8 @@
 - [Longest Common Prefix](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/longest_common_prefix.py)
 - [Valid Parentheses](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/valid_parentheses.py)
 - [Merge Two Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/merge_two_sorted_lists.py)
-
+- [Remove Duplicates from Sorted Lists]()
+- 
 **Moderate**
 - 
 
