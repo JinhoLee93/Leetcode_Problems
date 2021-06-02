@@ -11,7 +11,7 @@
 - [Remove Duplicates from Sorted List](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy)
 - [Remove Element](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_element.py)
 - [Implement strStr](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy)
-- [Search Insert Position]()
+- [Search Insert Position](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/search_insert.py)
 
 **Moderate**
 - 
