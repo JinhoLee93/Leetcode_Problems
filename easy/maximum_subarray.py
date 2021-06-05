@@ -14,9 +14,7 @@ class Solution:
                 return self.conquer(m + nums[index], nums, index + 1)
         
     def maxSubArray(self, nums: List[int]) -> int:
-        max = -float(inf)
+        m = -float('inf')
+        m = self.conquer(m, nums, 0)
         
-        max = conquer(nums, 0, len(nums))
-        
-        
-        
+        return m
