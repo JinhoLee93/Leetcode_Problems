@@ -4,11 +4,11 @@ class Solution:
             return m
         
         else:
+            if 
             if m + nums[index] < nums[index]:
                 return self.conquer(nums[index], nums, index + 1) 
             
-            # m + nums[index] >= nums[index]
-            else:
+            elif m + nums[index] >:
                 return self.conquer(m + nums[index], nums, index + 1)
 
     def maxSubArray(self, nums: List[int]) -> int:
