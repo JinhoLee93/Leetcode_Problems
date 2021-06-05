@@ -1,9 +1,10 @@
 # Using Divide and Conquer 
 class Solution:
-    def conquer(self, nums, index, l):
-        max = -1
+    def conquer(self, nums, index):
+        max = conquer(nums, index + 1, l)
         
-        if 
+        if index == len(nums):
+            return max
         
     def maxSubArray(self, nums: List[int]) -> int:
         max = -float(inf)
