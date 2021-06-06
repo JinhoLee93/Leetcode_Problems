@@ -1,4 +1,4 @@
-# Runtime: 76 ms, Memory usage: 28.9 MB
+# Runtime: 60 ms, Memory usage: 15.1 MB
 # O(n)
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
