@@ -14,6 +14,7 @@
 - [Search Insert Position](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/search_insert.py)
 - [Maximum Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/maximum_subarray.py)
 - [Length of Last Word](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/length_of_last_word.py)
+- [Plus One](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/plus_one.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
