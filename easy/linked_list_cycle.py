@@ -7,11 +7,11 @@
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         seen = list()
-        while head is not None:
-            if head.val not in seen:
-                seen.append(head.val)
+        while head:
+            if head not in seen:
+                seen.append(head)
                 head = head.next
-            else: 
+            else:
                 return True
             
         return False
