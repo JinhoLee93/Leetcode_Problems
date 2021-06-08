@@ -28,11 +28,24 @@ class MyLinkedList:
         return -1
         
 
-    def addAtHead(self, val: int) -> None:
+        def addAtHead(self, val: int) -> None:
         """
         Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
         """
-        
+        if not self.head:
+            self.head.val = val
+        else:
+            traverse_old = self.head
+            new_list = MyLinkedList()
+            new_list.head.val = val
+            traverse_new = new_list.head
+
+            while traverse_old:
+                traverse_new.next_node = traverse_old
+                traverse_old = traverse_old.next_node
+                traverse_new = traverse_new.next_node
+
+            self.head = new_list.head
 
     def addAtTail(self, val: int) -> None:
         """
