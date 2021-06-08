@@ -17,14 +17,17 @@ class MyLinkedList:
         Get the value of the index-th node in the linked list. If the index is invalid, return -1.
         """
         i = 0
-        while self.head:
+        traverse = self.head
+        while traverse:
             if i == index:
-                return self.head.val
-            
+                return traverse.val
+
             i += 1
-            self.head = self.head.next
-        
+            traverse = traverse.next_node
+
         return -1
+        
+
     def addAtHead(self, val: int) -> None:
         """
         Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
