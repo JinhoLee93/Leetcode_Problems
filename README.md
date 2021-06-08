@@ -21,7 +21,7 @@
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
 - [Linked List Cycle II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/linked_list_cycle_ii.py) 
-- [Design Linked List]()
+- [Design Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/design_linked_list.py)
 
 **Hard**
 - 
