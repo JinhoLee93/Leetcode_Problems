@@ -64,7 +64,18 @@ class MyLinkedList:
         """
         Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.
         """
-        
+        new_node = Node(val)
+        traverse_old = self.head
+        new_list = MyLinkedList()
+        traverse_new = new_list.head
+
+        i = 0
+        while traverse_old:
+            traverse_new = traverse_old
+            traverse_old = traverse_old.next_node
+            traverse_new = traverse_new.next_node
+
+            i += 1
 
     def deleteAtIndex(self, index: int) -> None:
         """
