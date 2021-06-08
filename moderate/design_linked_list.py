@@ -1,18 +1,30 @@
+class Node:
+    def __init__(self, val, self.next=None):
+        self.val = val
+        self.next = next
+
 class MyLinkedList:
 
     def __init__(self):
         """
         Initialize your data structure here.
         """
-        self.head = None
+        self.head = Node(None)
         
 
     def get(self, index: int) -> int:
         """
         Get the value of the index-th node in the linked list. If the index is invalid, return -1.
         """
+        i = 0
+        while self.head:
+            if i == index:
+                return self.head.val
+            
+            i += 1
+            self.head = self.head.next
         
-
+        return -1
     def addAtHead(self, val: int) -> None:
         """
         Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
