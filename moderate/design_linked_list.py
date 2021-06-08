@@ -35,6 +35,14 @@ class MyLinkedList:
         """
         Append a node of value val to the last element of the linked list.
         """
+        new_node = Node(val)
+        if not self.head.val:
+            self.head.val = val
+        else:
+            traverse = self.head
+            while traverse.next_node:
+                traverse = traverse.next_node
+            traverse.next_node = new_node
         
 
     def addAtIndex(self, index: int, val: int) -> None:
