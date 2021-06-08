@@ -71,11 +71,17 @@ class MyLinkedList:
 
         i = 0
         while traverse_old:
-            traverse_new = traverse_old
-            traverse_old = traverse_old.next_node
-            traverse_new = traverse_new.next_node
+            if i == index:
+                traverse_new = new_node
+                traverse_new = traverse_new.next_node
+            else:
+                traverse_new = traverse_old
+                traverse_old = traverse_old.next_node
+                traverse_new = traverse_new.next_node
 
             i += 1
+
+        self.head = new_list.head
 
     def deleteAtIndex(self, index: int) -> None:
         """
