@@ -21,7 +21,6 @@ class MyLinkedList:
         while traverse:
             if i == index:
                 return traverse.val
-
             i += 1
             traverse = traverse.next_node
 
@@ -39,7 +38,6 @@ class MyLinkedList:
             new_list = MyLinkedList()
             new_list.head.val = val
             traverse_new = new_list.head
-
             while traverse_old:
                 traverse_new.next_node = traverse_old
                 traverse_old = traverse_old.next_node
@@ -58,6 +56,7 @@ class MyLinkedList:
             traverse = self.head
             while traverse.next_node:
                 traverse = traverse.next_node
+                
             traverse.next_node = new_node
         
 
