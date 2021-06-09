@@ -71,13 +71,13 @@ class MyLinkedList:
 
         i = 0
         while traverse_old:
-            if i == index:
-                traverse_new = new_node
+            if index == i:
+                traverse_new.next_node = new_node
                 traverse_new = traverse_new.next_node
             else:
-                traverse_new = traverse_old
-                traverse_old = traverse_old.next_node
+                traverse_new.next_node = traverse_old
                 traverse_new = traverse_new.next_node
+                traverse_old = traverse_old.next_node
 
             i += 1
 
