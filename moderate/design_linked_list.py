@@ -88,6 +88,13 @@ class MyLinkedList:
         """
         Delete the index-th node in the linked list, if the index is valid.
         """
+    
+    # Helper function to traverse the list
+    def traverseList(self):
+        traverse = self.head
+        while traverse:
+            print(traverse.val)
+            traverse = traverse.next_node
         
 
 
