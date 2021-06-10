@@ -103,11 +103,14 @@ class MyLinkedList:
             if index == i:
                 traverse_old = traverse_old.next_node
             else:
-                traverse_new = traverse_old
+                traverse_new.val = traverse_old.val
                 traverse_old = traverse_old.next_node
                 if traverse_old:
                     traverse_new.next_node = Node(None)
                     traverse_new = traverse_new.next_node
+            i += 1
+
+        self.head = new_list.head
 
     
     # Helper function to traverse the list
