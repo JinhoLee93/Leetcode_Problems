@@ -90,6 +90,25 @@ class MyLinkedList:
         """
         Delete the index-th node in the linked list, if the index is valid.
         """
+            def deleteAtIndex(self, index: int) -> None:
+        """
+        Delete the index-th node in the linked list, if the index is valid.
+        """
+        traverse_old = self.head
+        new_list = MyLinkedList()
+        traverse_new = new_list.head
+
+        i = 0
+        while traverse_old:
+            if index == i:
+                traverse_old = traverse_old.next_node
+            else:
+                traverse_new = traverse_old
+                traverse_old = traverse_old.next_node
+                if traverse_old:
+                    traverse_new.next_node = Node(None)
+                    traverse_new = traverse_new.next_node
+
     
     # Helper function to traverse the list
     def traverseList(self):
