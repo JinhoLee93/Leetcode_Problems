@@ -97,7 +97,8 @@ class MyLinkedList:
         traverse_old = self.head
         new_list = MyLinkedList()
         traverse_new = new_list.head
-
+        
+        # Solve for when the index is (length - 1)
         i = 0
         while traverse_old:
             if index == i:
