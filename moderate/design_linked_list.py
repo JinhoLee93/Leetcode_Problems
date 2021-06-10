@@ -108,6 +108,8 @@ class MyLinkedList:
                 if traverse_old.next_node:
                     traverse_new.next_node = Node(None)
                     traverse_new = traverse_new.next_node
+                else:
+                    break
             i += 1
 
         self.head = new_list.head
