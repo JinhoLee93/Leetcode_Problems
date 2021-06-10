@@ -71,6 +71,7 @@ class MyLinkedList:
             
         # Solve how to place the first element
         i = 0
+        """
         while traverse_old:
             if index == i:
                 traverse_new.next_node = new_node
@@ -79,7 +80,16 @@ class MyLinkedList:
                 traverse_new.next_node = traverse_old
                 traverse_new = traverse_new.next_node
                 traverse_old = traverse_old.next_node
-
+        """
+        while traverse_old:
+            temp = None
+            if i == index:
+                temp = traverse_old
+                traverse_old = new_node
+                traverse_old.next_node = temp
+                traverse_old = traverse_old.next_node
+            else:
+                traverse_old = traverse_old.next_node
             i += 1
 
         self.head = new_list.head
