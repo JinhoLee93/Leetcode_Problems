@@ -121,14 +121,4 @@ class MyLinkedList:
         traverse = self.head
         while traverse:
             print(traverse.val)
-            traverse = traverse.next_node
-        
-
-
-# Your MyLinkedList object will be instantiated and called as such:
-# obj = MyLinkedList()
-# param_1 = obj.get(index)
-# obj.addAtHead(val)
-# obj.addAtTail(val)
-# obj.addAtIndex(index,val)
-# obj.deleteAtIndex(index)
+            traverse = traverse.next_node   
