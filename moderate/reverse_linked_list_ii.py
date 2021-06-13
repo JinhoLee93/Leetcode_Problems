@@ -6,7 +6,7 @@
 class Solution:
     def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
         traverse = head
-        while traverse.val: 
+        while traverse: 
             if traverse.val == left:
                 prv = None
                 cur = traverse  
@@ -15,6 +15,7 @@ class Solution:
                     nxt = traverse.next
                     traverse.next = cur
                     prv = traverse
+                    traverse = nxt
                 traverse = prv
             
             else:
