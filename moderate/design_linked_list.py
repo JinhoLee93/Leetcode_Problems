@@ -31,7 +31,7 @@ class MyLinkedList:
         """
         Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
         """
-        if not self.head:
+        if not self.head.val:
             self.head.val = val
         else:
             traverse_old = self.head
