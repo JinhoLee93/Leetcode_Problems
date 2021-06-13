@@ -10,7 +10,6 @@ class Solution:
             if traverse.val == left:
                 prv = None
                 cur = traverse  
-                nxt = None
                 while traverse.val != right: 
                     nxt = traverse.next
                     traverse.next = cur
