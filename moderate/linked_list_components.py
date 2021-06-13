@@ -4,11 +4,24 @@
 #         self.val = val
 #         self.next = next
 def check(head, nums):
+    nums = sorted(nums)
     traverse = head
+    disconnected = True
+    connected = 0
     while traverse: 
-        print(traverse.val)
+        if traverse.val in nums:
+            if disconnected:
+                connected += 1
+            disconnected = False
+        else:
+            disconnected = True
+
+
         traverse = traverse.next
+        
+    return connected
+
     
 class Solution:
     def numComponents(self, head: ListNode, nums: List[int]) -> int:
-        check(head, nums)
+        return check(head, nums)
