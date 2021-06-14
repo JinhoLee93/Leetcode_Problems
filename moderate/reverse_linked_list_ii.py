@@ -14,9 +14,13 @@ class Solution:
                     cur.next = prv
                     prv = cur
                     cur = nxt
-
+                nxt = cur.next
+                cur.next = prv
+                prv = cur
+                cur = nxt            
                 cur = prv
+                break
             else:
                 cur = cur.next
     
-        return head
+        return cur
