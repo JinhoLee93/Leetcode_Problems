@@ -27,5 +27,7 @@ class Solution:
             else:
                 front_nodes.append(cur.val)
                 cur = cur.next
+                
+        head = cur
         
-        return cur
+        return head
