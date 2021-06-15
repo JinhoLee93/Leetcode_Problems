@@ -6,6 +6,9 @@
 class Solution:
     def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
         cur = head
+        front_nodes = list()
+        end_nodes = list()
+
         while cur: 
             if cur.val == left:
                 prv = None
@@ -20,7 +23,9 @@ class Solution:
                 cur = nxt            
                 cur = prv
                 break
+                
             else:
+                front_nodes.append(cur.val)
                 cur = cur.next
-    
+        
         return cur
