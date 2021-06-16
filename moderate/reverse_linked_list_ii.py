@@ -3,11 +3,30 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
-    def add_at_tail(head, val):
+
+def add_at_head(head, val):
+    traverse = head
+    new_head = ListNode(val)
+    cur = new_head
         
+    while traverse:
+        new_head.next = traverse
+        traverse = traverse.next
+        new_head = new_head.next
+        
+    return cur
     
-    def add_at_head(head, val):
+    
+def add_at_tail(head, val):
+    traverse = head
+        
+        
+        
+        
+    return head
+
+
+class Solution:
     def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
         cur = head
         cur2 = head
@@ -45,15 +64,16 @@ class Solution:
             else:
                 cur = cur.next
         
-        head = cur
-        
         front_nodes = front_nodes[::-1]
         back_nodes = back_nodes[::-1]
         
-        for i in range(front_nodes):
-            add_at_head(cur, front_nodes[i])
+        for i in range(len(front_nodes)):
+            cur = add_at_head(cur, front_nodes[i])
         
-        for i in range(back_nodes):
+        """
+        for i in range(len(back_nodes)):
             add_at_tail(cur, back_nodes[i])
+            
+        """
         
-        return head
+        return cur
