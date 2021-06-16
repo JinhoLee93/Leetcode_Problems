@@ -54,7 +54,6 @@ class Solution:
             cur2 = cur2.next
         
         while cur: 
-            cur2 = cur
             if cur.val == left:
                 prv = None
                 while cur.val != right: 
