@@ -3,7 +3,6 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-
 def add_at_head(head, val):
     traverse = head
     new_head = ListNode(val)
@@ -45,12 +44,7 @@ class Solution:
                 while cur2.val != right:
                     cur2 = cur2.next
             
-            if cur2.val < left:
-                front_nodes.append(cur2.val)
-                    
-            if cur2.val > right:
-                back_nodes.append(cur2.val)
-                
+            front_nodes.append(cur2.val)
             cur2 = cur2.next
         
         while cur: 
@@ -72,7 +66,9 @@ class Solution:
         
         front_nodes = front_nodes[::-1]
         back_nodes = back_nodes[::-1]
-        
+        print(front_nodes)
+        print(back_nodes)
+
         for i in range(len(front_nodes)):
             cur = add_at_head(cur, front_nodes[i])
         
