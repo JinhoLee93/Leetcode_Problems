@@ -5,38 +5,30 @@
 #         self.next = next
 
 def add_at_head(head, val):
-    if head.val == None:
-        head.val = val
-        
-    else:
-        traverse = head
-        new_head = ListNode(val)
-        pointer = new_head
+    traverse = head
+    new_head = ListNode(val)
+    pointer = new_head
 
-        while traverse:
-            new_head.next = traverse
-            traverse = traverse.next
-            new_head = new_head.next
+    while traverse:
+        new_head.next = traverse
+        traverse = traverse.next
+        new_head = new_head.next
 
     return pointer
     
     
 def add_at_tail(head, val):
-    if head.val == None:
-        head.val = val
-    
-    else:
-        traverse = head
-        new_tail = ListNode(None)
-        pointer = new_tail
+    traverse = head
+    new_tail = ListNode(None)
+    pointer = new_tail
 
-        while traverse: 
-            new_tail.val = traverse.val
-            new_tail.next = ListNode(None)
-            new_tail = new_tail.next
-            traverse = traverse.next
+    while traverse: 
+        new_tail.val = traverse.val
+        new_tail.next = ListNode(None)
+        new_tail = new_tail.next
+        traverse = traverse.next
         
-        new_tail.val = val
+    new_tail.val = val
         
     return pointer
 
