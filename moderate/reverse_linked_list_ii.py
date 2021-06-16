@@ -5,25 +5,40 @@
 #         self.next = next
 
 def add_at_head(head, val):
-    traverse = head
-    new_head = ListNode(val)
-    cur = new_head
+    if head.val == None:
+        head.val = val
         
-    while traverse:
-        new_head.next = traverse
-        traverse = traverse.next
-        new_head = new_head.next
-        
-    return cur
+    else:
+        traverse = head
+        new_head = ListNode(val)
+        pointer = new_head
+
+        while traverse:
+            new_head.next = traverse
+            traverse = traverse.next
+            new_head = new_head.next
+
+    return pointer
     
     
 def add_at_tail(head, val):
-    traverse = head
+    if head.val == None:
+        head.val = val
+    
+    else:
+        traverse = head
+        new_tail = ListNode(None)
+        pointer = new_tail
+
+        while traverse: 
+            new_tail.val = traverse.val
+            new_tail.next = ListNode(None)
+            new_tail = new_tail.next
+            traverse = traverse.next
         
+        new_tail.val = val
         
-        
-        
-    return head
+    return pointer
 
 
 class Solution:
@@ -70,10 +85,8 @@ class Solution:
         for i in range(len(front_nodes)):
             cur = add_at_head(cur, front_nodes[i])
         
-        """
         for i in range(len(back_nodes)):
-            add_at_tail(cur, back_nodes[i])
+            cur = add_at_tail(cur, back_nodes[i])
             
-        """
         
         return cur
