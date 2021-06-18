@@ -1,9 +1,5 @@
+# Runtime: 28ms, Memory usage: 14MB
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
-        a = int(a)
-        b = int(b)
-        
-        ab = [str(i) for i in str(a+b)]
-        
-        while True:
-            
+        sum = bin(int(a, 2) + int(b, 2)) 
+        return sum[2:]
