@@ -20,6 +20,7 @@
 - [Reverse Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_list.py)
 - [Palindrome Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/is_palindrome.py)
 - [Sqrt(x)](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/sqrt.py)
+- [Climbing Stairs](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/climbing_stairs.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
