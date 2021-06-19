@@ -5,6 +5,9 @@
 #         self.next = next
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
+        if head == None:
+            return head
+        
         cur = head
         new = ListNode(None)
         re = new
@@ -15,9 +18,10 @@ class Solution:
                     new.val = cur.val
                     while cur.val == cur.next.val:
                         cur = cur.next
+                        if cur.next == None:
+                            break
                     
-                    if cur.next:
-                        cur = cur.next
+                    cur = cur.next
 
                 else:
                     new.val = cur.val
