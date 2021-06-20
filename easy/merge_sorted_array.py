@@ -3,5 +3,13 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
+        i = len(nums1)
+        j = 1    
+        while (i - j) >= m:
+            nums1.pop()
+            j += 1
         
-            
+        for j in range(len(nums2)):
+            nums1.append(nums2[j])
+        
+        nums1.sort()
