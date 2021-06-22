@@ -26,6 +26,7 @@
 - [Binary Tree Inorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_inorder_traversal.py)
 - [Same Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/same_tree.py)
 - [Symmetric Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/symmetric_tree.py)
+- [Maximum Depth of Binary Tree]()
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
