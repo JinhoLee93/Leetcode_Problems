@@ -5,18 +5,11 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def check(self, r1, r2):
-        if r1 == None and r2 == None: 
-            return True
+    def depth(self, root, i): 
+        i += 1
         
-        if r1 == None or r2 == None: 
-            return False 
+        return self.depth(root.left, root.right, i)
+    def maxDepth(self, root: TreeNode) -> int:
+        i = 0
         
-        if r1.val == r2.val:
-            return self.check(r1.left, r2.right) and\
-                   self.check(r1.right, r2.left)
-        
-    def isSymmetric(self, root: TreeNode) -> bool:
-        
-        return self.check(root.left, root.right)
         
