@@ -24,7 +24,7 @@
 - [Remove Duplicates from Sorted List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_duplicates_sorted_list.py)
 - [Merge Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/merge_sorted_array.py)
 - [Binary Tree Inorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_inorder_traversal.py)
-- [Same Tree]()
+- [Same Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/same_tree.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
