@@ -8,10 +8,8 @@ class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
         if nums:
             root = TreeNode()
-            root.val = nums[ceil(len(nums)/2)]
-            root.left = self.sortedArrayToBST(nums[:ceil(len(nums)/2)])
-            root.right = self.sortedArrayToBST(nums[ceil(len(nums)/2) + 1:])
+            root.val = nums[floor(len(nums)/2)]
+            root.left = self.sortedArrayToBST(nums[:floor(len(nums)/2)])
+            root.right = self.sortedArrayToBST(nums[floor(len(nums)/2) + 1:])
             
-        return root
-            
-        
+            return root
