@@ -30,7 +30,7 @@
 - [Convert Sorted Array to Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/sorted_array_to_BST.py)
 - [Balanced Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/balanced_binary_tree.py) 
 - [Minimum Depth of Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/min_depth_tree.py)
-- [Path Sum]()
+- [Path Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/path_sum.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
