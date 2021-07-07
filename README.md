@@ -10,7 +10,7 @@
 - [Merge Two Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/merge_two_sorted_lists.py)
 - [Remove Duplicates from Sorted List](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy)
 - [Remove Element](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_element.py)
-- [Implement strStr](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy)
+- [Implement strStr](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/implement_strStr.py)
 - [Search Insert Position](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/search_insert.py)
 - [Maximum Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/maximum_subarray.py)
 - [Length of Last Word](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/length_of_last_word.py)
