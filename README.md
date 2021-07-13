@@ -44,4 +44,4 @@
 - [Reverse Linked List II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reverse_linked_list_ii.py)
 - [Swapping Nodes in a Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/swapping_nodes.py)
 - [Longest Univalue Path](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_univalue_path.py)
-- [Longest Substring Without Repeating Character]() 
+- [Longest Substring Without Repeating Character](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_substring.py) 
