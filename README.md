@@ -37,6 +37,7 @@
 - [Best Time to Buy and Sell Stock II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock_ii.py)
 - [Valid Palindrome](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/valid_palindrome.py)
 - [Single Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/single_number.py)
+- [Preorder Traversal]
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
