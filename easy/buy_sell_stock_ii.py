@@ -1,3 +1,4 @@
+# Runtime: 60 ms, Memory Usage: 15 MB
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         win1 = 0
