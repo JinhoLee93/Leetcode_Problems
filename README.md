@@ -40,7 +40,8 @@
 - [Preorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/preorder_traversal.py)
 - [Postorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/preorder_traversal.py)
 - [Min Stack](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/min_stack.py)
-- [Intersection of Two Linked Lists]()
+- [Intersection of Two Linked Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/intersection_two_linked_lists.py)
+- [Two Sum II]()
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
