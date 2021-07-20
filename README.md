@@ -38,7 +38,7 @@
 - [Valid Palindrome](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/valid_palindrome.py)
 - [Single Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/single_number.py)
 - [Preorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/preorder_traversal.py)
-- [Postorder Traversal]()
+- [Postorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/preorder_traversal.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
