@@ -1,3 +1,4 @@
+# Runtime: 24 ms, Memory usage: 14 MB
 class Solution:
     def convertToTitle(self, n: int) -> str:
         res = ""
