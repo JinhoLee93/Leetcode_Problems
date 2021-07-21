@@ -46,7 +46,7 @@
 - [Excel Sheet Column Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/excel_column_num.py)
 - [Majority Element](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/majority_element.py)
 - [Factorial Trailing Zeroes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/factorial_trailing_zeroes.py) 
-- [Reverse Bits]()
+- [Reverse Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_bits.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
