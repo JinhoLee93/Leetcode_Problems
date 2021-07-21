@@ -48,7 +48,7 @@
 - [Factorial Trailing Zeroes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/factorial_trailing_zeroes.py) 
 - [Reverse Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_bits.py)
 - [Number of Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/number_of_bits.py)
-- [Happy Number]()
+- [Happy Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/happy_number.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
