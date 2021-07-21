@@ -1,4 +1,4 @@
-# Faster than 100%
+# Faster than 99%
 class Solution:
     def isHappy(self, n: int) -> bool:
         cycle = set()
