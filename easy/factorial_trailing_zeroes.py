@@ -1,3 +1,4 @@
+# Faster than 100%
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         denom = 5
