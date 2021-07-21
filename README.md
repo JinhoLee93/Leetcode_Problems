@@ -43,7 +43,7 @@
 - [Intersection of Two Linked Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/intersection_two_linked_lists.py)
 - [Two Sum II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/two_sum_ii.py)
 - [Excel Sheet Column Title](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/excel_column.py)
-- [Majority Element]()
+- [Majority Element](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/majority_element.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
