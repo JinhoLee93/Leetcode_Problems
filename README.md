@@ -51,8 +51,8 @@
 - [Happy Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/happy_number.py)
 - [Remove Linked List Elements](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_linked_list.py)
 - [Count Primes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/count_primes.py)
-- [Isomorphic Strings]()
-- [Contain Duplicate]()
+- [Isomorphic Strings](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/isomorphic_strings.py)
+- [Contain Duplicate](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
