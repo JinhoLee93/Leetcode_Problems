@@ -50,7 +50,7 @@
 - [Number of Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/number_of_bits.py)
 - [Happy Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/happy_number.py)
 - [Remove Linked List Elements](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_linked_list.py)
-- [Count Primes]()
+- [Count Primes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/count_primes.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
