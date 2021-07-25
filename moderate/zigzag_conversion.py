@@ -7,27 +7,31 @@ class Solution:
         rev = False
         res = ""
         
-        i = 0
+        i = -1
+        c = 0
         for char in s:
             if not rev: 
-                if i == numRows:
+                if i == (numRows - 1):
                     rev = True
-                    i -= 2
+                    i -= 1
                     mat[i].append(char)
-                
+
                 else:
-                    mat[i].append(char)
                     i += 1
-                
+                    mat[i].append(char)
+
             else:
                 if i == 0:
                     rev = False
-                    mat[i].append(char)
                     i += 1
-                    
+                    mat[i].append(char)
+
                 else:
                     i -= 1
                     mat[i].append(char)
-    
-        print(mat)
+
+        for i in range(numRows):
+            for j in range(len(mat[i])):
+                res += mat[i][j]
+                
         return res
