@@ -55,7 +55,7 @@
 - [Contain Duplicate](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate.py)
 - [Contain Duplicate II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate_ii.py)
 - [Implement Stack Using Queues](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy/stack_using_queues.py)
-- [Invert Binary Tree]()
+- [Invert Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/invert_binary_tree.py)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
