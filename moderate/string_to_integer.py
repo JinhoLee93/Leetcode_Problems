@@ -1,5 +1,8 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
+        MAX = (2 ** 31) - 1
+        MIN = -2 ** 31
+         
         if s == "":
             return 0 
         
@@ -48,11 +51,10 @@ class Solution:
         if len(res) == 1 and (res[0] == '+' or res[0] == '-'):
             return 0
         
-        if int(res) >= (-2) ** 31 and int(res) <= (2 ** 31) - 1: 
-            return int(res)
+        if int(res) < MIN:
+            return MIN
         
-        if int(res) < (-2) ** 31:
-            return (-2) ** 31
+        if int(res) > MAX:
+            return MAX
         
-        if int(res) > (2 ** 31) - 1:
-            return (2 ** 31) - 1 
+        return int(res)
