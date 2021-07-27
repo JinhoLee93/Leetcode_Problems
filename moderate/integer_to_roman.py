@@ -1,3 +1,5 @@
+# Runtime: 45 ms, Memory usage: 14.1 MB (less than 95%)
+
 class Solution:
     def intToRoman(self, num: int) -> str:
         roman = {
