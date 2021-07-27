@@ -2,13 +2,20 @@ class Solution:
     def intToRoman(self, num: int) -> str:
         roman = {
             1: "I",
+            4: "IV",
             5: "V",
+            9: "IX",
             10: "X",
+            40: "XL",
             50: "L",
+            90: "XC",
             100: "C",
+            400: "CD",
             500: "D",
+            900: "CM",
             1000: "M"
         }
+        
         num = str(num)
         res = ""
         
@@ -19,31 +26,57 @@ class Solution:
                 res += roman[n] 
             
             else:
-                if n != 0 and n + (10 ** ((len(num) - 1) - i)) in roman:
-                    res += roman[10 ** ((len(num) - 1) - i)]
-                    res += roman[n + (10 ** ((len(num) - 1) - i))]
-                
-                if n < 4:
-                    j = 0
-                    while j < n:
-                        res += roman[1]
-                        j += 1
-                
-                if n > 5 and n < 9:
-                    
-                    
+                if n > 0 and n < 9:
+                    part = ""
+                    while n > 0:
+                        if n in roman:
+                            part += roman[n]
+                            n -= n
                         
-                if n > 10 and n < 40:
-                    j = 0
-                    while j < n:
-                        res += roman[10]
-                        j += 10
-                
-                if n > 50 and n < 90:
+                        else:
+                            part += roman[1]
+                            n -= 1
+                            
                     
+                    res += part[::-1]
                 
-                if n > 100 and n < 400:
+                elif n > 10 and n < 100:
+                    part = ""
+                    while n > 0:
+                        if n in roman:
+                            part += roman[n]
+                            n -= n
+                        
+                        else:
+                            part += roman[10]
+                            n -= 10
                     
-                if n > 500 and n < 900:
+                    res += part[::-1]
+                
+                elif n > 100 and n < 1000:
+                    part = ""
+                    while n > 0:
+                        if n in roman:
+                            part += roman[n]
+                            n -= n
+                        
+                        else:
+                            part += roman[100]
+                            n -= 100
+                    
+                    res += part[::-1]
+                
+                elif n > 1000:
+                    part = ""
+                    while n > 0:
+                        if n in roman:
+                            part += roman[n]
+                            n -= n
+                            
+                        else:
+                            part += roman[1000]
+                            n -= 1000
+                        
+                    res += part[::-1]
                     
         return res
