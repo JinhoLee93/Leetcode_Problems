@@ -13,6 +13,7 @@ class Solution:
                 l -= 1
                 r += 1
             
+            r, l = i, i + 1
             while 0 <= l and r < len(s) and s[l] == s[r]: 
                 if r - l + 1 > anslen:
                     ans = s[l:r+1]
