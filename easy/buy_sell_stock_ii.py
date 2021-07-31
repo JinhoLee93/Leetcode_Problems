@@ -1,14 +1,19 @@
-# Runtime: 60 ms, Memory Usage: 15 MB
+# Runtime: 57 ms, Memory Usage: 15 MB
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        win1 = 0
+        buy = prices[0]
+        sell = buy
         profit = 0
         
-        for i in range(len(prices)): 
-            if win1 < i:
-                if prices[i] > prices[win1]:
-                    profit += prices[i] - prices[win1]
-                
-                win1 += 1
+        for i in range(len(prices)):
+            if buy > prices[i]:
+                buy = prices[i]
+                sell = buy
+            
+            if sell < prices[i]:
+                sell = prices[i]
+            
+            profit += (sell - buy)
+            buy = sell 
             
         return profit
