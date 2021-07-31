@@ -1,7 +1,7 @@
 # My Leetcode Journal 
 
 **[Easy](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy)**
-- [Two Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/two_sum.py)
+- [Two Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/two_sum.py) (Important)
 - [Reverse Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_integer.py)
 - [Palindrome Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/palindrome_number.py)
 - [Roman to Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/roman_to_integer.py)
@@ -33,8 +33,8 @@
 - [Path Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/path_sum.py)
 - [Pascal's Triangle](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/pascal's_triangle.py)
 - [Pascal's Triangle II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/pascal's_triangle_ii.py)
-- [Best Time to Buy and Sell Stock](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock.py)
-- [Best Time to Buy and Sell Stock II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock_ii.py)
+- [Best Time to Buy and Sell Stock](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock.py) (Important)
+- [Best Time to Buy and Sell Stock II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock_ii.py) (Important)
 - [Valid Palindrome](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/valid_palindrome.py)
 - [Single Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/single_number.py)
 - [Preorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/preorder_traversal.py)
