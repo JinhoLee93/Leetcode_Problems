@@ -1,7 +1,7 @@
 # My Leetcode Journal 
 
 **[Easy](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy)**
-- [Two Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/two_sum.py) (!)
+- [Two Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/two_sum.py) (! Array)
 - [Reverse Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_integer.py)
 - [Palindrome Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/palindrome_number.py)
 - [Roman to Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/roman_to_integer.py)
@@ -33,8 +33,8 @@
 - [Path Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/path_sum.py)
 - [Pascal's Triangle](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/pascal's_triangle.py)
 - [Pascal's Triangle II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/pascal's_triangle_ii.py)
-- [Best Time to Buy and Sell Stock](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock.py) (!)
-- [Best Time to Buy and Sell Stock II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock_ii.py) (!)
+- [Best Time to Buy and Sell Stock](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock.py) (! Array)
+- [Best Time to Buy and Sell Stock II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/buy_sell_stock_ii.py) (! Array)
 - [Valid Palindrome](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/valid_palindrome.py)
 - [Single Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/single_number.py)
 - [Preorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/preorder_traversal.py)
@@ -52,8 +52,8 @@
 - [Remove Linked List Elements](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_linked_list.py)
 - [Count Primes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/count_primes.py)
 - [Isomorphic Strings](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/isomorphic_strings.py)
-- [Contain Duplicate](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate.py) (!)
-- [Contain Duplicate II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate_ii.py) (!)
+- [Contain Duplicate](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate.py) (! Array)
+- [Contain Duplicate II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate_ii.py) (! Array)
 - [Implement Stack Using Queues](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy/stack_using_queues.py)
 - [Invert Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/invert_binary_tree.py)
 
@@ -76,4 +76,4 @@
 - [Letter Combinations of a Phone Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/letter_combinations.py)
 - [Word Search](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/word_search.py)
 - [Contain Duplicates III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/contain_duplicate_iii.py)
-- [Product of Array Except Self]()
+- [Product of Array Except Self](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/product_of_array.py) (! Array)
