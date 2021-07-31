@@ -12,7 +12,7 @@
 - [Remove Element](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_element.py)
 - [Implement strStr](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/implement_strStr.py)
 - [Search Insert Position](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/search_insert.py)
-- [Maximum Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/maximum_subarray.py)
+- [Maximum Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/maximum_subarray.py) (! Array)
 - [Length of Last Word](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/length_of_last_word.py)
 - [Plus One](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/plus_one.py)
 - [Add Binary](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/add_binary.py)
