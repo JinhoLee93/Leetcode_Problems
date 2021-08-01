@@ -46,7 +46,7 @@
 - [Excel Sheet Column Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/excel_column_num.py)
 - [Majority Element](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/majority_element.py)
 - [Factorial Trailing Zeroes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/factorial_trailing_zeroes.py) 
-- [Reverse Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_bits.py)
+- [Reverse Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_bits.py) (! Binary)
 - [Number of 1 Bit](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/number_of_bits.py) (! Binary)
 - [Happy Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/happy_number.py)
 - [Remove Linked List Elements](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_linked_list.py)
