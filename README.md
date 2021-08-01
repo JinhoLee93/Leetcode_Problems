@@ -20,7 +20,7 @@
 - [Reverse Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_list.py)
 - [Palindrome Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/is_palindrome.py)
 - [Sqrt(x)](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/sqrt.py)
-- [Climbing Stairs](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/climbing_stairs.py)
+- [Climbing Stairs](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/climbing_stairs.py) (! DP)
 - [Remove Duplicates from Sorted List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_duplicates_sorted_list.py)
 - [Merge Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/merge_sorted_array.py)
 - [Binary Tree Inorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_inorder_traversal.py)
