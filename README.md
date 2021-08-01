@@ -56,6 +56,7 @@
 - [Contain Duplicate II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate_ii.py) (! Array)
 - [Implement Stack Using Queues](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy/stack_using_queues.py)
 - [Invert Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/invert_binary_tree.py)
+- [Missing Number]() (! Binary)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
@@ -81,5 +82,5 @@
 - [Find Minimum in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/min_rotated_array.py) (! Array)
 - [Search in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/search_rotated_array.py) (! Array)
 - [Sum of Two Integers](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/sum_of_two_integers.py) (! Binary)
-- [Counting Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/counting_bits.py) (! Binary)
+- [Counting Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/counting_bits.py) (! Binary/DP)
 
