@@ -1,22 +1,20 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        if len(height) == 2: 
-            return min(height[0], height[1])
+        if len(height) == 2:
+            return min(height)
         
-        temp = 0
-        res = 0
-        i = 0
-        j = len(height) - 1
-        
-        while i < j: 
-            if height[i] > height[j]:
-                temp = height[j] * (j - i)
-                j -= 1
-
+        most_water = 0
+        l, r = 0, len(height) - 1
+        while l < r:
+            if height[l] < height[r]:
+                temp = (r - l) * min(height[l], height[r])
+                l += 1
+            
             else:
-                temp = height[i] * (j - i)
-                i += 1
-
-            res = max(res, temp)
-
-        return res
+                temp = (r - l) * min(height[l], height[r])
+                r -= 1
+                
+            most_water = max(most_water, temp)
+            
+        return most_water
+            
