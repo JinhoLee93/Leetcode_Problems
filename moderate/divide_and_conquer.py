@@ -1,23 +1,20 @@
-# Runtime: 76 ms, Memory usage: 28.9 MB
 class Solution:
-    def conquer(self, m, res, nums, index):
-        if index == len(nums):
-            return res
-        
-        else:
-            if m + nums[index] < nums[index]:
-                if nums[index] > res:
-                    res = nums[index]
-                    
-                return self.conquer(nums[index], res, nums, index + 1) 
-            
-            else: 
-                if m + nums[index] > res:
-                    res = m + nums[index]
-                
-                return self.conquer(m + nums[index], res, nums, index + 1)
-
     def maxSubArray(self, nums: List[int]) -> int:
-        res = self.conquer(-float('inf'), -float('inf'), nums, 0)
+        cur = 0
+        res = nums[0]
         
+        def divide_and_conquer(cur, res, i):
+            if i == len(nums):
+                return res
+            
+            if cur < 0: 
+                cur = 0
+            
+            cur += nums[i]    
+            res = max(res, cur)
+            
+            return divide_and_conquer(cur, res, i + 1)
+        
+        res = divide_and_conquer(cur, res, 0)
+            
         return res
