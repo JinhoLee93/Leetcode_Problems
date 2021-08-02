@@ -28,4 +28,23 @@ class Solution:
 
         return clones[node]
 
-# DFS
+    # DFS
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        if node == None:
+            return node 
+        
+        clones = {}
+        
+        def dfs(node):
+            if node in clones:
+                return clones[node]
+            
+            copy = Node(node.val)
+            clones[node] = copy
+            
+            for neighbor in node.neighbors:
+                copy.neighbors.append(dfs(neighbor))
+            
+            return clones[node]
+        
+        return dfs(node)
