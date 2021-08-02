@@ -24,7 +24,7 @@
 - [Remove Duplicates from Sorted List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_duplicates_sorted_list.py)
 - [Merge Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/merge_sorted_array.py)
 - [Binary Tree Inorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_inorder_traversal.py)
-- [Same Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/same_tree.py)
+- [Same Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/same_tree.py) (! Tree)
 - [Symmetric Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/symmetric_tree.py)
 - [Maximum Depth of Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_maximum_depth.py) (! Tree)
 - [Convert Sorted Array to Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/sorted_array_to_BST.py)
