@@ -7,14 +7,13 @@
 #         self.right = right
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
-        if not p and not q:
+        if p == None and q == None:
             return True 
         
-        if not p or not q:
+        if p == None or q == None:
             return False
         
         if p.val != q.val:
             return False
         
-        return self.isSameTree(p.left, q.left) and\
-               self.isSameTree(p.right, q.right)
+        return self.isSameTree(p.left, q.left) & self.isSameTree(p.right, q.right)
