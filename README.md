@@ -26,7 +26,7 @@
 - [Binary Tree Inorder Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_inorder_traversal.py)
 - [Same Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/same_tree.py)
 - [Symmetric Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/symmetric_tree.py)
-- [Maximum Depth of Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_maximum_depth.py)
+- [Maximum Depth of Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/tree_maximum_depth.py) (! Tree)
 - [Convert Sorted Array to Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/sorted_array_to_BST.py)
 - [Balanced Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/balanced_binary_tree.py) 
 - [Minimum Depth of Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/min_depth_tree.py)
