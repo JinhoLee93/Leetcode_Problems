@@ -91,6 +91,7 @@
 - [Construct Binary Tree From Preorder and Inorder](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/construct_pre_in_order.py) (! Tree)
 - [Construct Binary Tree From Inorder and Postorder](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/tree_from_in_and_post.py) (! Tree)
 - [Jump Game](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/jump_game.py) (! DP/Greedy)
+- [Validate Binary Search Tree]() (! Tree/DFS - Revisit)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
