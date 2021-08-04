@@ -1,41 +1,28 @@
-# Runtime: 24 ms, Memory usage: 14.2 MB
-# Easy Stack implementation
+# Runtime: 12 ms (Faster than 100%) Space: 14.2 MB
 class Solution:
     def isValid(self, s: str) -> bool:
-        pa = [str(i) for i in str(s)] 
-        stack = list()
+        hashmap = {
+            ")": "(",
+            "]": "[",
+            "}": "{"
+        }
+        paren = []
         
-        for i in pa:
-            if i == '(' or i == '[' or i == '{':
-                stack.append(i)
+        for c in s:
+            if c in hashmap:
+                if len(paren) == 0:
+                    
+                    return False 
                 
-            elif i == ')' or i == ']' or i == '}':     
-                if len(stack) < 1:
+                if paren[-1] == hashmap[c]:
+                    paren.pop()
+                
+                else:
+                    
                     return False
-                
-                if i == ')':
-                    if stack[-1] == '(': 
-                        stack.pop()
-                    else:
-                        return False
-                    
-                if i == ']':
-                    if stack[-1] == '[':
-                        stack.pop() 
-                    
-                    else:
-                        return False
-                
-                if i == '}':
-                    if stack[-1] == '{':
-                        stack.pop()
-                        
-                    else: 
-                        return False
-
-
-        if len(stack) == 0:
-            return True 
+            
+            else:
+                paren.append(c)
+            
         
-        else:
-            return False
+        return True if len(paren) == 0 else False
