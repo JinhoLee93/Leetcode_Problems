@@ -58,6 +58,7 @@
 - [Invert Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/invert_binary_tree.py) (! Tree)
 - [Missing Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/missing_number.py) (! Binary/Math)
 - [Subtree of Another Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/subtree_of_another_tree.py) (! Tree - Revisit)
+- [Lowest Common Ancestor of a Binary Search Tree]() (! Tree)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
@@ -92,7 +93,7 @@
 - [Construct Binary Tree From Inorder and Postorder](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/tree_from_in_and_post.py) (! Tree)
 - [Jump Game](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/jump_game.py) (! DP/Greedy)
 - [Validate Binary Search Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/validate_binary_search_tree.py) (! Tree/DFS - Revisit)
-- [Kth Smallest Element in a BST](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/kth_smallest_bst.py)
+- [Kth Smallest Element in a BST](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/kth_smallest_bst.py) (! Tree)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
