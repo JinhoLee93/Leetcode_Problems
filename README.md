@@ -96,7 +96,7 @@
 - [Kth Smallest Element in a BST](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/kth_smallest_bst.py) (! Tree)
 - [Lowest Common Ancestor of a Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/lowest_common_ancestor_bt.py) (! Tree)
 - [Implement Trie](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/implement_trie.py) (! Tree/Trie)
-- [Design Add and Search Words Dictionary]() (! Tree/Trie) 
+- [Design Add and Search Words Dictionary](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/design_add_and_search.py) (! Tree/Trie) 
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
