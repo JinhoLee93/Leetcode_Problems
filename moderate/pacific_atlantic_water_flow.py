@@ -1,37 +1,41 @@
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        # Time: O(N * M + N + M) = O(N * M)
+        # Space: O(N + M)
         ROWS, COLS = len(heights), len(heights[0])
-        result = []
         pacificToAtlantic = set()
-        atlanticToPacific = set() 
+        atlanticToPacific = set()
         
-        def dfs(r, c, pathmap, prv): 
-            if r > ROWS - 1 or c > COLS - 1 or \
-                r < 0 or c < 0 or \
+        res = []
+        
+        def dfs(r, c, prvHeight, pathmap):
+            if r < 0 or c < 0 or \
+                r > (ROWS - 1) or c > (COLS - 1) or \
                 (r, c) in pathmap or \
-                heights[r][c] < prv:
+                heights[r][c] < prvHeight:
                 
                 return
             
             pathmap.add((r, c))
-            dfs(r + 1, c, pathmap, heights[r][c])
-            dfs(r - 1, c, pathmap, heights[r][c])
-            dfs(r, c + 1, pathmap, heights[r][c])
-            dfs(r, c - 1, pathmap, heights[r][c])
-
-        for c in range(COLS):
-            dfs(0, c, pacificToAtlantic, heights[0][c])
-            dfs(ROWS - 1, c, atlanticToPacific, heights[ROWS - 1][c])
-        
-        for r in range(ROWS):
-            dfs(r, 0, pacificToAtlantic, heights[r][0])
-            dfs(r, COLS - 1, atlanticToPacific, heights[r][COLS - 1])
+            
+            dfs(r + 1, c, heights[r][c], pathmap)
+            dfs(r - 1, c, heights[r][c], pathmap)
+            dfs(r, c + 1, heights[r][c], pathmap)
+            dfs(r, c - 1, heights[r][c], pathmap)
             
         for r in range(ROWS):
+            dfs(r, 0, heights[r][0], pacificToAtlantic)
+            dfs(r, COLS - 1, heights[r][COLS - 1], atlanticToPacific)
+        
+        for c in range(COLS):
+            dfs(0, c, heights[0][c], pacificToAtlantic)
+            dfs(ROWS - 1, c, heights[ROWS - 1][c], atlanticToPacific)
+        
+        for r in range(ROWS):
             for c in range(COLS):
-                if ((r, c) in pacificToAtlantic) and \
-                    ((r, c) in atlanticToPacific): 
+                if (r, c) in pacificToAtlantic and \
+                    (r, c) in atlanticToPacific:
                     
-                    result.append([r, c])
+                    res.append([r, c])
                     
-        return result
+        return res
