@@ -101,7 +101,7 @@
 - [Number of Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_islands.py) (! Graph/DFS)
 - [Pacific Atlantic Water Flow](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/pacific_atlantic_water_flow.py) (! Graph/DFS)
 - [Course Schedule](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/course_schedule.py) (! Graph)
-- [Course Schedule II]() (! Graph - For Palantir Prep)
+- [Course Schedule II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/course_schedule_ii.py) (! Graph - For Palantir Prep)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
