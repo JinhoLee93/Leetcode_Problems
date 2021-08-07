@@ -102,7 +102,7 @@
 - [Pacific Atlantic Water Flow](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/pacific_atlantic_water_flow.py) (! Graph/DFS)
 - [Course Schedule](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/course_schedule.py) (! Graph)
 - [Course Schedule II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/course_schedule_ii.py) (! Graph - For Palantir Prep)
-- [Longest Consecutive Sequnce](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_consecutive_sequence.py) (! Graph/Hash Table)
+- [Longest Consecutive Sequnce](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_consecutive_sequence.py) (! Graph/Hashset)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
