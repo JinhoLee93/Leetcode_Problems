@@ -1,5 +1,6 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
+        # Time: O(N), Space: O(N)
         numSet = set(nums)
         longest = 0
         
