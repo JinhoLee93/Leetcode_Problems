@@ -105,6 +105,7 @@
 - [Longest Consecutive Sequnce](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_consecutive_sequence.py) (! Graph/Hashset)
 - [Insert Interval](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/insert_interval.py) (! Interval - Revisit)
 - [Merge Interval](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/merge_interval.py) (! Interval - Palantir Prep)
+- [Longest Increasing Subsequence]() (! DP - Brute Force)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
