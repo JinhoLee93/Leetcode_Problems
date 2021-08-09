@@ -60,7 +60,6 @@
 - [Subtree of Another Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/subtree_of_another_tree.py) (! Tree - Revisit)
 - [Lowest Common Ancestor of a Binary Search Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/lowest_common_ancestor.py) (! Tree)
 - [Flood Fill](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/flood_fill.py) (! Graph - For Palantir Prep)
-- [House Robber]() (! DP)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
@@ -108,6 +107,7 @@
 - [Merge Interval](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/merge_interval.py) (! Interval - Palantir Prep)
 - [Longest Common Subsequence](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_common_subsequence.py) (! DP/Bottom Up - Revisit)
 - [Word Break](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/word_break.py) (! DP/Array Slicing - Revisit)
+- [House Robber]() (! DP)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
