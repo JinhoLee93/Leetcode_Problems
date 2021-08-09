@@ -1,25 +1,17 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        if len(nums) == 1:
+        if len(nums) < 2:
             
             return nums[0]
-    
-        dp1 = nums[:len(nums) - 1]
-        dp2 = nums[1:len(nums)]
-    
-        for i in range(len(dp1)):
-            for j in range(i):
-                if i - j > 1: 
-                    dp1[i] = max(dp1[i], nums[i] + dp1[j])
-                
-        for i in range(len(dp2)):
-            for j in range(i):
-                if i - j > 1:
-                    dp2[i] = max(dp2[i], nums[i + 1] + dp2[j])
-                
         
-        d1 = max(dp1)
-        d2 = max(dp2)
+        return max(self.robbing(nums[:len(nums) - 1]), self.robbing(nums[1:len(nums)]))
+    
+    def robbing(self, houses):
+        money1, money2 = 0, 0
         
-        return max(d1, d2)
-                
+        for stack in houses:
+            roll = max(stack + money1, money2)
+            money1 = money2
+            money2 = roll
+            
+        return money2
