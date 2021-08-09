@@ -107,7 +107,8 @@
 - [Merge Interval](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/merge_interval.py) (! Interval - Palantir Prep)
 - [Longest Common Subsequence](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_common_subsequence.py) (! DP/Bottom Up - Revisit)
 - [Word Break](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/word_break.py) (! DP/Array Slicing - Revisit)
-- [House Robber]() (! DP)
+- [House Robber](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/house_robber.py) (! DP)
+- [House Robber II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/house_robber_ii.py) (! DP)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
