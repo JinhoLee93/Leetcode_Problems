@@ -106,7 +106,7 @@
 - [Insert Interval](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/insert_interval.py) (! Interval - Revisit)
 - [Merge Interval](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/merge_interval.py) (! Interval - Palantir Prep)
 - [Longest Common Subsequence](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_common_subsequence.py) (! DP/Bottom Up - Revisit)
-- [Word Break]() (! DP)
+- [Word Break](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/word_break.py) (! DP)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
