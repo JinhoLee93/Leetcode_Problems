@@ -110,7 +110,7 @@
 - [House Robber](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/house_robber.py) (! DP)
 - [House Robber II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/house_robber_ii.py) (! DP)
 - [House Robber III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/house_robber_iii.py) (! DP/Tree - Revisit)
-- [Decode Ways]() (! DP - Revisit)
+- [Decode Ways](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/decode_ways.py) (! DP - Revisit)
 - [Unique Paths](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/unique_paths.py) (! DP)
 
 **[Hard]()**
