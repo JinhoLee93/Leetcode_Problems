@@ -80,7 +80,7 @@
 - [Letter Combinations of a Phone Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/letter_combinations.py)
 - [Word Search](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/word_search.py)
 - [Contain Duplicates III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/contain_duplicate_iii.py)
-- [Product of Array Except Self](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/product_of_array.py) (! Array)
+- [Product of Array Except Self](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/product_of_array.py) (! Array - Revisit)
 - [Maximum Product Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_prod.py) (! Array)
 - [Find Minimum in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/min_rotated_array.py) (! Array)
 - [Search in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/search_rotated_array.py) (! Array)
