@@ -81,7 +81,7 @@
 - [Word Search](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/word_search.py)
 - [Contain Duplicates III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/contain_duplicate_iii.py)
 - [Product of Array Except Self](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/product_of_array.py) (! Array - Revisit)
-- [Maximum Product Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_prod.py) (! Array)
+- [Maximum Product Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_prod.py) (! Array/DP - Revisit)
 - [Find Minimum in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/min_rotated_array.py) (! Array)
 - [Search in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/search_rotated_array.py) (! Array)
 - [Sum of Two Integers](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/sum_of_two_integers.py) (! Binary/Math)
