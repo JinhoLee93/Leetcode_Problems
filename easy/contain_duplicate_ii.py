@@ -20,6 +20,23 @@ class Solution:
                 j = i + 1
                 
         return False
+    
+        # Hash
+        numTable = {}
+        
+        for idx, num in enumerate(nums):
+            if num not in numTable:
+                numTable[num] = idx
+            
+            else:
+                if abs(numTable[num] - idx) <= k:
+                    
+                    return True
+                
+                else:
+                    numTable[num] = idx
+                
+        return False
         
         
         
