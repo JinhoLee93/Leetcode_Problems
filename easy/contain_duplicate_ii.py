@@ -1,17 +1,25 @@
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
-        hashmap = {}
+        # Array Manipulation
+        nums = sorted([(v, i) for i, v in enumerate(nums)])
         
-        for i in range(len(nums)): 
-            if nums[i] not in hashmap:
-                hashmap[nums[i]] = i
-            
-            else:
-                hashmap[nums[i]] = abs(hashmap[nums[i]] - i)
-                if hashmap[nums[i]] <= k:
+        i, j = 0, 1
+        
+        while j < len(nums):
+            if nums[i][0] == nums[j][0]:
+                if abs(nums[i][1] - nums[j][1]) <= k:
+                    
                     return True
                 
                 else:
-                    hashmap[nums[i]] = i
-        
+                    i += 1
+                    j = i + 1
+
+            else:
+                i += 1
+                j = i + 1
+                
         return False
+        
+        
+        
