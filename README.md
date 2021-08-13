@@ -98,7 +98,7 @@
 - [Lowest Common Ancestor of a Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/lowest_common_ancestor_bt.py) (! Tree)
 - [Implement Trie](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/implement_trie.py) (! Tree/Trie)
 - [Design Add and Search Words Dictionary](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/design_add_and_search.py) (! Tree/Trie) 
-- [Number of Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_islands.py) (! Graph/DFS)
+- [Number of Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_islands.py) (! Graph/DFS - For Palantir Prep)
 - [Pacific Atlantic Water Flow](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/pacific_atlantic_water_flow.py) (! Graph/DFS)
 - [Course Schedule](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/course_schedule.py) (! Graph)
 - [Course Schedule II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/course_schedule_ii.py) (! Graph - For Palantir Prep)
