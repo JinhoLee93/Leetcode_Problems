@@ -53,7 +53,7 @@
 - [Count Primes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/count_primes.py)
 - [Isomorphic Strings](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/isomorphic_strings.py)
 - [Contain Duplicate](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate.py) (! Array)
-- [Contain Duplicate II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate_ii.py) (! Array)
+- [Contain Duplicate II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate_ii.py) (! Array - For Palantir Prep)
 - [Implement Stack Using Queues](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy/stack_using_queues.py)
 - [Invert Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/invert_binary_tree.py) (! Tree)
 - [Missing Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/missing_number.py) (! Binary/Math)
