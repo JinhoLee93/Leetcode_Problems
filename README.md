@@ -112,6 +112,7 @@
 - [House Robber III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/house_robber_iii.py) (! DP/Tree - Revisit)
 - [Decode Ways](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/decode_ways.py) (! DP - Revisit)
 - [Unique Paths](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/unique_paths.py) (! DP)
+- [Rotate Image]() (! Matrix)
 
 **[Hard]()**
 - [Binary Tree Maximum Path Sum]() (! Tree)
