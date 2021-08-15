@@ -3,11 +3,12 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+        # Runtime: O(n^2), Memory: O(1)
         ROWS, COLS = len(matrix), len(matrix[0])
         rowZero = False
         
         for r in range(ROWS):
-            for c in range(COLS): 
+            for c in range(COLS):
                 if matrix[r][c] == 0:
                     matrix[0][c] = 0
                     
@@ -16,7 +17,7 @@ class Solution:
                     
                     else:
                         rowZero = True
-                        
+        
         for r in range(1, ROWS):
             for c in range(1, COLS):
                 if matrix[r][0] == 0 or matrix[0][c] == 0:
@@ -25,7 +26,7 @@ class Solution:
         if matrix[0][0] == 0:
             for r in range(ROWS):
                 matrix[r][0] = 0
-                
+        
         if rowZero:
             for c in range(COLS):
                 matrix[0][c] = 0
