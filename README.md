@@ -17,7 +17,7 @@
 - [Plus One](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/plus_one.py)
 - [Add Binary](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/add_binary.py)
 - [Linked List Cycle](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/linked_list_cycle.py)
-- [Reverse Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_list.py)
+- [Reverse Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_list.py) (! Linked List)
 - [Palindrome Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/is_palindrome.py)
 - [Sqrt(x)](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/sqrt.py)
 - [Climbing Stairs](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/climbing_stairs.py) (! DP)
