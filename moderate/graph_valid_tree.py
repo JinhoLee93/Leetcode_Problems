@@ -1,10 +1,6 @@
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         # Time: O(E(number of edges) + V(number of vertices)), Space: O(E + V)
-        if not n:
-            
-            return True
-        
         adj = {i:[] for i in range(n)}
         visitSet = set()
         
