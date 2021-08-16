@@ -116,7 +116,7 @@
 - [Set Matrix Zeroes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/set_matrix_zeroes.py) (! Matrix - Revisit) 
 - [Spiral Matrix](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate) (! Matrix)
 - [Graph Valid Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/graph_valid_tree.py) (! Undirected Graph - Revisit)
-- [Number of Connected Components in an Undirected Graph]() (! Undirected Graph)
+- [Number of Connected Components in an Undirected Graph](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_connected_graph.py) (! Undirected Graph)
 - [Non-overlapping Intervals]() (! Interval)
 
 **[Hard]()**
