@@ -31,3 +31,20 @@ class Solution:
             i += 1
         
         return newList.next
+        
+      # One pass, Same time and space
+        newList = ListNode(0, head)
+        left = newList
+        right = head
+        
+        while n > 0 and right:
+            right = right.next
+            n -= 1
+        
+        while right:
+            left = left.next
+            right = right.next
+            
+        left.next = left.next.next
+        
+        return newList.next
