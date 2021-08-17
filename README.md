@@ -16,7 +16,7 @@
 - [Length of Last Word](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/length_of_last_word.py)
 - [Plus One](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/plus_one.py)
 - [Add Binary](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/add_binary.py)
-- [Linked List Cycle](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/linked_list_cycle.py) (! Linked List/Floyd's Linked List Cycle Algorithm - Revisit)
+- [Linked List Cycle](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/linked_list_cycle.py) (! Linked List/Floyd's Tortoise and Hare - Revisit)
 - [Reverse Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_list.py) (! Linked List)
 - [Palindrome Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/is_palindrome.py)
 - [Sqrt(x)](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/sqrt.py)
