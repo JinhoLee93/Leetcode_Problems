@@ -121,8 +121,9 @@
 - [Non-overlapping Intervals](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/erase_intervals.py) (! Interval)
 - [Meeting Rooms II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/meeting_rooms_ii.py) (! Interval - Revisit)
 - [Remove Nth Node From End of List]() (! Linked List)
+- [Reorder List]() (! Linked List)
  
 **[Hard]()**
-- [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List)
+- [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap)
 - [Binary Tree Maximum Path Sum]() (! Tree)
 
