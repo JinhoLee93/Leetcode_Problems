@@ -8,26 +8,30 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        # Time: O(N), Space: O(N)
+        # Time: O(N), Space: O(1)
+        
+        # Find the middle
         middle = head
         fast = head
-        
         while fast and fast.next:
             middle = middle.next
-            fast = fast.next.next
-        
-        second = middle.next 
-        middle.next = None
-        prv = None
-        while second:
-            nxt = second.next
-            second.next = prv
-            prv = second
-            second = nxt
+            fast = fast.next.next 
             
-        l1, l2 = head, prv
-        while l2:
-            tmp1, tmp2 = l1.next, l2.next
-            l1.next = l2
-            l2.next = tmp1
-            l1, l2 = tmp1, tmp2
+        # Reverse the second half
+        prv = None
+        while middle:
+            nxt = middle.next
+            middle.next = prv
+            prv = middle
+            middle = nxt
+        
+        # Merge the two lists
+        first, second = head, prv
+        while second.next:
+            nxt = first.next
+            first.next = second
+            first = nxt
+            
+            nxt = second.next
+            second.next = first
+            second = nxt
