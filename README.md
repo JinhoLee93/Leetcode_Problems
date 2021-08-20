@@ -125,7 +125,7 @@
 - [Reorder List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reorder_list.py) (! Linked List)
 - [Top K Frequent Elements]() (! Bucket Sort)
  
-**[Hard]()**
+**[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap)
 - [Find Median from Data Stream](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/find_median_from_data.py) (! Heap/Double Heap - Revisit)
 - [Binary Tree Maximum Path Sum]() (! Tree)
