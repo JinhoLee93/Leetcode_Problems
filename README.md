@@ -123,7 +123,7 @@
 - [Meeting Rooms II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/meeting_rooms_ii.py) (! Interval - Revisit)
 - [Remove Nth Node From End of List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/remove_nth_linked_list.py) (! Linked List)
 - [Reorder List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reorder_list.py) (! Linked List)
-- [Top K Frequent Elements]() (! Bucket Sort)
+- [Top K Frequent Elements]() (! Bucket Sort/Heap (N largest))
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap)
