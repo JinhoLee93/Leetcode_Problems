@@ -125,7 +125,7 @@
 - [Reorder List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reorder_list.py) (! Linked List)
 - [Top K Frequent Elements](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/top_k_frequent_elements.py) (! Bucket Sort/Heap (N largest))
 - [Minimum Time Difference](https://github.com/JinhoLee93/Leetcode_Problems/edit/main/moderate/minimum_time_difference.py) (! For Palantir Prep (Math))
-- [Candy Crush]() (! For Palantir Prep (Matrix))
+- [Candy Crush](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/candy_crush.py) (! For Palantir Prep (Matrix))
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap)
