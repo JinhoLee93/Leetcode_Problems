@@ -128,7 +128,7 @@
 - [Candy Crush](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/candy_crush.py) (! For Palantir Prep (Matrix))
 - [UTF-8 Validation](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/utf-8_validation.py) (! For Palantir Prep (Bit/String) - Revisit)
 - [Number of Distinct Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_distinct_islands.py) (! For Palantir Prep (Matrix/DFS))
-- [Max Area of Islands]() (! For Palantir Prep)
+- [Max Area of Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/max_area_of_island.py) (! For Palantir Prep)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
