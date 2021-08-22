@@ -1,5 +1,6 @@
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
+        # Without Split()
         cp = {}
         result = []
         
@@ -40,3 +41,14 @@ class Solution:
             result.append(f"{cp[key]} {key}")
         
         return result
+           
+        # with Split()
+        ans = collections.Counter()
+        for domain in cpdomains:
+            count, domain = domain.split()
+            count = int(count)
+            frags = domain.split('.')
+            for i in range(len(frags)):
+                ans[".".join(frags[i:])] += count
+
+        return ["f{ct} {dom}" for dom, ct in ans.items()]
