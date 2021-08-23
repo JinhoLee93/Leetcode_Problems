@@ -130,7 +130,7 @@
 - [Number of Distinct Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_distinct_islands.py) (! For Palantir Prep (Matrix/DFS))
 - [Max Area of Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/max_area_of_island.py) (! For Palantir Prep)
 - [Subdomain Visit Count](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/subdomain_visit_count.py) (! For Palantir Prep - String) 
-- [Find the Celebrity]() (! For Palantir Prep - Graph)
+- [Find the Celebrity](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/find_the_celebrity.py) (! For Palantir Prep - Logic)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
