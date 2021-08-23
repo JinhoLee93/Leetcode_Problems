@@ -43,12 +43,16 @@ class Solution:
         return result
            
         # with Split()
-        ans = collections.Counter()
+        cp = {} 
+        result = []
         for domain in cpdomains:
-            count, domain = domain.split()
-            count = int(count)
-            frags = domain.split('.')
-            for i in range(len(frags)):
-                ans[".".join(frags[i:])] += count
+            frags = domain.split()
+            visit = int(frags[0])
+            dom = frags[1].split('.')
+            domStr = ""
+            
+            for i in range(len(dom)):  
+                joined = ".".join(dom[i:])
+                cp[joined] = visit + cp.get(joined, 0)
 
-        return ["f{ct} {dom}" for dom, ct in ans.items()]
+        return [f"{cp[key]} {key}" for key in cp]
