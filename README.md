@@ -63,7 +63,7 @@
 - [Meeting Rooms](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/meeting_rooms.py) (! Interval)
 - [Middle of the Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/middle_of_the_linked_list.py) (! Linked List/Floyd's Tortoise and Hare as finding a cycle in linked lists) 
 - [Range Sum Query](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/range_sum_query.py) (! For Palantir Prep - DP)
-- [Check if It Is a Straight Line]() (! For Palantir Prep - Linear Algebra)
+- [Check if It Is a Straight Line](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/check_if_straight_line.py) (! For Palantir Prep - Linear Algebra)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Divide and Conquer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/divide_and_conquer.py)
