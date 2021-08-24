@@ -134,6 +134,7 @@
 - [Subdomain Visit Count](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/subdomain_visit_count.py) (! For Palantir Prep - String) 
 - [Find the Celebrity](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/find_the_celebrity.py) (! For Palantir Prep - Logic)
 - [LRU Cache](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/lru_cache.py) (! For Palantir Prep - Doubly Linked List)
+- [Next Closest Time]() (! For Palantir Prep - String + Logic)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
