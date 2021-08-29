@@ -44,7 +44,7 @@ class Solution:
            
         # with Split()
         cp = {} 
-        result = []
+        
         for domain in cpdomains:
             frags = domain.split()
             visit = int(frags[0])
