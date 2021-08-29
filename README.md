@@ -99,7 +99,7 @@
 - [Jump Game](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/jump_game.py) (! DP/Greedy)
 - [Validate Binary Search Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/validate_binary_search_tree.py) (! Tree/DFS - Revisit)
 - [Kth Smallest Element in a BST](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/kth_smallest_bst.py) (! Tree)
-- [Lowest Common Ancestor of a Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/lowest_common_ancestor_bt.py) (! Tree)
+- [Lowest Common Ancestor of a Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/lowest_common_ancestor_bt.py) (! Tree - For Palantir Prep)
 - [Implement Trie](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/implement_trie.py) (! Tree/Trie)
 - [Design Add and Search Words Dictionary](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/design_add_and_search.py) (! Tree/Trie) 
 - [Number of Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_islands.py) (! Graph/DFS - For Palantir Prep)
