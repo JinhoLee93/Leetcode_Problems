@@ -126,7 +126,7 @@
 - [Remove Nth Node From End of List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/remove_nth_linked_list.py) (! Linked List)
 - [Reorder List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reorder_list.py) (! Linked List)
 - [Top K Frequent Elements](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/top_k_frequent_elements.py) (! Bucket Sort/Heap (N largest))
-- [Minimum Time Difference](https://github.com/JinhoLee93/Leetcode_Problems/edit/main/moderate/minimum_time_difference.py) (! For Palantir Prep (Math))
+- [Minimum Time Difference](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/minimum_time_difference.py) (! For Palantir Prep (Math))
 - [Candy Crush](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/candy_crush.py) (! For Palantir Prep (Matrix))
 - [UTF-8 Validation](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/utf-8_validation.py) (! For Palantir Prep (Bit/String) - Revisit)
 - [Number of Distinct Islands](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/number_of_distinct_islands.py) (! For Palantir Prep (Matrix/DFS))
