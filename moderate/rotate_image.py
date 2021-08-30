@@ -3,26 +3,29 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        # Runtime: O(N^2) Memory: O(1)
-        visit = set()
-        rotate = set()
+        # Time: O(N) Space: O(N) N being the number of cells
+        ROWS = COLS = len(matrix)
+        length = len(matrix) - 1
+        rotateSet = set() 
+        reflectSet = set()
         
-        for r in range(len(matrix)):
-            for c in range(len(matrix)): 
-                if (r, c) not in visit:
+        # Rotation 
+        for r in range(ROWS):
+            for c in range(COLS): 
+                if (r, c) not in rotateSet: 
                     temp = matrix[r][c]
-                    matrix[r][c] = matrix[(len(matrix) - 1) - c][(len(matrix) - 1) - r]
-                    matrix[(len(matrix) - 1) - c][(len(matrix) - 1) - r] = temp
-
-                    visit.add((r, c))
-                    visit.add((len(matrix) - 1 - c, len(matrix) - 1 - r))
+                    matrix[r][c] = matrix[length - c][length - r]
+                    matrix[length - c][length - r] = temp
+                    
+                    rotateSet.add((r, c))
+                    rotateSet.add((length - c, length - r))
         
-        for i in range(len(matrix)):
-            if i not in rotate:
+        # Transpose
+        for i in range(ROWS):
+            if not i in reflectSet:
                 temp = matrix[i]
-                matrix[i] = matrix[len(matrix) - 1 - i]
-                matrix[len(matrix) - 1 - i] = temp
-
-                rotate.add(i)
-                rotate.add(len(matrix) - 1 - i)
+                matrix[i] = matrix[length - i]
+                matrix[length - i] = temp 
                 
+                reflectSet.add(i)
+                reflectSet.add(length - i)
