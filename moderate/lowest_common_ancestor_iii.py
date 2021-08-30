@@ -10,6 +10,7 @@ class Node:
 
 class Solution:
     def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
+        # Time: O(N * M), Space: O(N * M)
         nodeSet = set()
         
         def dfs(node):
