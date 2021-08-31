@@ -88,7 +88,7 @@
 - [Maximum Product Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_prod.py) (! Array/DP - Revisit)
 - [Find Minimum in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/min_rotated_array.py) (! Array)
 - [Search in Rotated Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/search_rotated_array.py) (! Array)
-- [Sum of Two Integers](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/sum_of_two_integers.py) (! Binary/Math)
+- [Sum of Two Integers](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/sum_of_two_integers.py) (! Binary Search)
 - [Counting Bits](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/counting_bits.py) (! Binary/DP)
 - [Coin Change](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/coin_change.py) (! DP/Bottom Up)
 - [Longest Increasing Subsequnece](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_increasing_subsequence.py) (! DP)
