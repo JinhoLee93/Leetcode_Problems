@@ -73,7 +73,7 @@
 - [Reverse Linked List II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reverse_linked_list_ii.py)
 - [Swapping Nodes in a Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/swapping_nodes.py)
 - [Longest Univalue Path](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_univalue_path.py)
-- [Longest Substring Without Repeating Character](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_substring.py) (! String)
+- [Longest Substring Without Repeating Character](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_substring.py) (! String - Sliding Window)
 - [Longest Palindromic Substring](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/longest_palindrome.py) (! String)
 - [ZigZag Conversion](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/zigzag_conversion.py)
 - [String to Integer (atoi)](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/string_to_integer.py)
