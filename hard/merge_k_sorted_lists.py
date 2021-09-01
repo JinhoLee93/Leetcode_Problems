@@ -1,3 +1,4 @@
+from queue import PriorityQueue
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -20,3 +21,27 @@ class Solution:
             cur = cur.next
         
         return newList.next
+        
+        class Wrapper:
+            def __init__(self, node):
+                self.node = node
+                
+            def __lt__(self, other):
+                return self.node.val < other.node.val 
+            
+        pq = PriorityQueue() 
+        head = pointer = ListNode(-1) 
+        
+        for l in lists:
+            if l:
+                pq.put(Wrapper(l))
+        
+        while not pq.empty():
+            node = pq.get().node
+            pointer.next = node
+            pointer = pointer.next
+            node = node.next
+            if node:
+                pq.put(Wrapper(node))
+                
+        return head.next
