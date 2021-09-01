@@ -49,8 +49,7 @@ class Solution:
             frags = domain.split()
             visit = int(frags[0])
             dom = frags[1].split('.')
-            domStr = ""
-            
+
             for i in range(len(dom)):  
                 joined = ".".join(dom[i:])
                 cp[joined] = visit + cp.get(joined, 0)
