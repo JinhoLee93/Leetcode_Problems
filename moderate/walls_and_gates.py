@@ -5,7 +5,6 @@ class Solution:
         """
         # Time: O(4 * R * C), Space = O(1)
         ROWS, COLS = len(rooms), len(rooms[0])
-        emptyRoom = 2147483647
         pathSet = set() 
         directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
         
