@@ -143,7 +143,7 @@
 - [Lowest Common Ancestor of a Binary Tree IV](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/lowest_common_ancestor_iv.py) (! Tree)
 - [Surrounded Regions](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/surrounded_regions.py) (! Matrix/DFS)
 - [Walls and Gates](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/walls_and_gates.py) (! Matrix/DFS/NO HASHSET - Check cells ahead of the current cell.)
-- [Rotting Oranges](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/rotting_oranges.py) (! Matrix/DFS - Check cells ahead of the current cell.)
+- [Rotting Oranges](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/rotting_oranges.py) (! Matrix/DFS - Check cells ahead of the current cell. Revisit)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
