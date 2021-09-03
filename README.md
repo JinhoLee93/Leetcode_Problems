@@ -146,7 +146,7 @@
 - [Walls and Gates](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/walls_and_gates.py) (! Matrix/DFS/NO HASHSET - Check cells ahead of the current cell.)
 - [Rotting Oranges](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/rotting_oranges.py) (! Matrix/DFS - Check cells ahead of the current cell. - Revisit)
 - [Time Based Key-Value Store](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/time_based_key_value_store.py) (! Generic Binary Search/Hash Table)  
-- [Find First and Last Position of Element in Sorted Array]() (! Binary Search)
+- [Find First and Last Position of Element in Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/find_first_and_last.py) (! Binary Search)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
