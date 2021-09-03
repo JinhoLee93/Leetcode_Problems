@@ -66,7 +66,7 @@
 - [Check if It Is a Straight Line](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/check_if_straight_line.py) (! For Palantir Prep - Linear Algebra)
 - [Valid Anagram](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/valid_anagram.py) (! String)
 - [Find the Town Judge](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/find_the_town_judge.py) (! Hash Table)
-- [Binary Search]() (! Binary Search)
+- [Binary Search](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/binary_search.py) (! Binary Search)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Linked List Cycle II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/linked_list_cycle_ii.py) 
