@@ -4,27 +4,36 @@ class Solution:
             
             return [-1, -1]
         
+        lower_bound = self.binarySearch(nums, target, True)
+        if lower_bound == -1:
+            
+            return [-1, -1]
+        
+        upper_bound = self.binarySearch(nums, target, False)
+        
+        return [lower_bound, upper_bound]
+        
+        
+    def binarySearch(self, nums, target, isLower):
         l, r = 0, len(nums) - 1
         while l <= r: 
             mid = l + (r - l) // 2
             if nums[mid] == target:
-                
-                left, right = mid, mid
-                while left - 1 >= 0:
-                    if nums[left - 1] != target:
-                        break
+                if isLower:
+                    if mid == l or nums[mid - 1] < target:
                         
-                    if nums[left - 1] == target:
-                        left -= 1
+                        return mid
+                    
+                    else:
+                        r = mid - 1
                 
-                while right + 1 < len(nums):
-                    if nums[right + 1] != target:
-                        break
+                else:
+                    if mid == r or nums[mid + 1] > target:
+                        
+                        return mid
                     
-                    if nums[right + 1] == target:
-                        right += 1
-                    
-                return [left, right]
+                    else:
+                        l = mid + 1
             
             elif nums[mid] < target:
                 l = mid + 1
@@ -32,4 +41,4 @@ class Solution:
             else:
                 r = mid - 1
                 
-        return [-1, -1] 
+        return -1
