@@ -159,6 +159,6 @@
 - [Find Median from Data Stream](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/find_median_from_data.py) (! Heap/Double Heap - Revisit)
 - [Median of Two Sorted Arrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/median_of_two_sorted_arrays.py) (! heap)
 - [Sliding Window Median](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/sliding_window_median.py) (! Heap/Array)
-- [Sliding Window Maximum]() (! Heap)
+- [Sliding Window Maximum]() (! Deque)
 - [Binary Tree Maximum Path Sum]() (! Tree)
 
