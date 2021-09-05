@@ -149,6 +149,7 @@
 - [Find First and Last Position of Element in Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/find_first_and_last.py) (! Binary Search)
 - [Maximum Length of Repeated Subarray](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_length_of_repeated_subarray.py) (! DP/Bottom Up)
 - [Longest Palindromic Subsequence](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/palindromic_substrings.py) (! DP/Bottom Up)
+- [Palindromic Substrings]() (! DP)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
