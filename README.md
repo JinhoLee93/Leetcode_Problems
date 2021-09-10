@@ -159,6 +159,7 @@
 - [Number of Provinces](https://leetcode.com/problems/number-of-provinces/submissions/) (! Undirected Graph)
 - [Evaluate Division](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/evaluate_division.py) (! Graph - Revisit)
 - [Cheapest Flights within K Stops](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/cheapest_flights_k_stops.py) (! Graph - Bellman-Ford - Revisit)
+- [Add Two Numbers II]() (! Linked List - Samsung)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
