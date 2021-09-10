@@ -67,7 +67,7 @@
 - [Valid Anagram](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/valid_anagram.py) (! String)
 - [Find the Town Judge](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/find_the_town_judge.py) (! Hash Table)
 - [Binary Search](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/binary_search.py) (! Binary Search)
-- [Reverse List]() (! list.reverse(), Two Pointers)
+- [Reverse List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_string.py) (! list.reverse(), Two Pointers)
 - [Rectangle Overlap]() (Samsung)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
