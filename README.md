@@ -68,7 +68,7 @@
 - [Find the Town Judge](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/find_the_town_judge.py) (! Hash Table)
 - [Binary Search](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/binary_search.py) (! Binary Search)
 - [Reverse List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_string.py) (! list.reverse(), Two Pointers)
-- [Rectangle Overlap]() (Samsung)
+- [Rectangle Overlap](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/rectangle_overlap.py) (Samsung)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Linked List Cycle II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/linked_list_cycle_ii.py) 
