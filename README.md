@@ -164,6 +164,7 @@
 - [Robot Bounded in Circle](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/robot_bounded.py) (! Simulation, Math - Revisit)
 - [Game of Life](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/game_of_life.py) (! Simulation)
 - [Multiply Strings](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/multiply_string.py) (! Math, Simulation - Revisit)
+- [Diagonal Traverse]() (! Simulation)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
