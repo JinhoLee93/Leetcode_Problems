@@ -3,46 +3,64 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-def traverse(head): 
-    while head:
-        print(head.val) 
-        head = head.next
-
 class Solution:
-    def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
-        if not head: 
-            return None 
+    def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
+        count = 1
+        pointer = head
+        beforeList = ListNode(-1)
+        before = beforeList
+        leftList = ListNode(-1)
+        l = leftList
+        endList = ListNode(-1)
+        endPointer = endList
         
-        cur, prv = head, None
-    
-        while cur.val != left: 
-            prv = cur
-            cur = cur.next
+        while pointer:
+            if count < left:
+                before.next = ListNode(pointer.val)
+                before = before.next
+                pointer = pointer.next
+                
+            elif count == left:
+                l.next = ListNode(pointer.val)
+                l = l.next
+                pointer = pointer.next
+                
+                while count < right:
+                    l.next = ListNode(pointer.val)
+                    l = l.next
+                    pointer = pointer.next
+                    count += 1
+                
+                prv = None
+                cur = leftList.next
+                while cur:
+                    nxt = cur.next
+                    cur.next = prv
+                    prv = cur
+                    cur = nxt
+                
+                connect = prv
+                while connect.next:
+                    connect = connect.next
+                
+                while pointer:
+                    endPointer.next = ListNode(pointer.val)
+                    endPointer = endPointer.next
+                    pointer = pointer.next
+                
+                connect.next = endList.next
+                leftList = prv
+                
+                break
+        
+            count += 1
+        
+        if left == 1:
             
-        tail, con = cur, prv
-        
-        while cur.val != right: 
-            nxt = cur.next
-            cur.next = prv
-            prv = cur
-            cur = nxt
-        
-        nxt = cur.next 
-        cur.next = prv
-        prv = cur
-        cur = nxt
-        
-        if con:
-            con.next = prv
+            return leftList
         
         else:
-            head = prv
+            #beforeList = beforeList.next
+            before.next = leftList
         
-        tail.next = cur
-        
-        return head 
+            return beforeList.next
