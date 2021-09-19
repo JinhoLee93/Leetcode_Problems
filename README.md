@@ -168,7 +168,7 @@
 - [Reveal Cards in Increasing Order](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reveal_cards_in.py) (! Simulation - deque)
 - [Accounts Merge](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/accounts_merge.py) (! Undirected Graph/DFS - Revisit)
 - [K-th Largest Element in an Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/kth_largest_element.py) (! Heap)
-- [K-th Closest Points to Origin]() (! Heap)
+- [K-th Closest Points to Origin](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/k_closest_points.py) (! Heap)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
