@@ -170,7 +170,7 @@
 - [K-th Largest Element in an Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/kth_largest_element.py) (! Heap)
 - [K-th Closest Points to Origin](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/k_closest_points.py) (! Heap)
 - [Reorganize String](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/reorganizing_string.py) (! Heap/Counter - Revisit)
-- [Task Scheduler]() (! Heap/Counter)
+- [Task Scheduler](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/task_scheduler.py) (! Heap/Counter)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
