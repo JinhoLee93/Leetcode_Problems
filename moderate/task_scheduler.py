@@ -4,6 +4,7 @@ class Solution:
         res = 0
         
         for key, val in count.items():
+            # Always count comes first in the order of heap
             heapq.heappush(heap, (-1 * val, key)) # Be aware of the order of the components of the heaps!!!!!!!!
             
         while heap: 
