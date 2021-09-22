@@ -1,28 +1,28 @@
 class Solution:
     def reorganizeString(self, s: str) -> str:
-        counter, hp = Counter(list(s)), []
+        # Use MaxHeap to solve the problem as a greedy algorithm
+        counter, heap = Counter(s), []
+        res = ""
         
-        for key in counter:
-            heapq.heappush(hp, ((-1) * counter[key], key))
+        for key, count in counter.items():
+            heapq.heappush(heap, (-1 * count, key))
+        
+        if -1 * heap[0][0] > (len(s) + 1) // 2:
             
-        item = hp[0]
+            return ""
         
-        if item[0] * (-1) > (len(s) + 1) // 2: 
+        while heap:
+            first = heapq.heappop(heap)
+            res += first[1]
             
-            return ''
-        
-        result = []
-        
-        while hp:
-            item = heapq.heappop(hp)
-            result.append(item[1])
-            if hp:
-                item2 = heapq.heappop(hp)
-                result.append(item2[1])
-                if item[0] + 1 < 0: 
-                    heapq.heappush(hp, (item[0] + 1, item[1]))
+            if heap:
+                second = heapq.heappop(heap)
+                res += second[1]
+                
+                if first[0] + 1 < 0:
+                    heapq.heappush(heap, (first[0] + 1, first[1]))
+                
+                if second[0] + 1 < 0:
+                    heapq.heappush(heap, (second[0] + 1, second[1]))
                     
-                if item2[0] + 1 < 0: 
-                    heapq.heappush(hp, (item2[0] + 1, item2[1]))
-                    
-        return ''.join(result)
+        return res
