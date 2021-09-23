@@ -1,13 +1,9 @@
 class Solution:
-    # Right Solution 
     def numberOfWeeks(self, milestones: List[int]) -> int:
-        if max(milestones) > sum(milestones) - max(milestones):
-            
-            return (sum(milestones) - max(milestones)) * 2 + 1
+        # Right Solution, Space: O(1), Time: O(N)
+        maximum, summation = max(milestones), sum(milestones)
         
-        else:
-            
-            return sum(milestones)
+        return (summation - maximum) * 2 + 1 if maximum > summation - maximum else summation
         
     # Heap Solution (Limited Time Exceeded)
     def numberOfWeeks(self, milestones: List[int]) -> int:
