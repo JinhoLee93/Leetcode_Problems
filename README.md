@@ -173,6 +173,7 @@
 - [Task Scheduler](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/task_scheduler.py) (! Heap/Counter)
 - [Maximum Number of Weeks for Which You Can Work](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_num_work.py) (! Math)
 - [Count Good Nodes in Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/count_good_nodes.py) (! DFS/Tree)
+- [Check Completeness of a Binary Tree]() (! DFS/Tree)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
