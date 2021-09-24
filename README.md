@@ -174,7 +174,7 @@
 - [Maximum Number of Weeks for Which You Can Work](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_num_work.py) (! Math)
 - [Count Good Nodes in Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/count_good_nodes.py) (! DFS/Tree)
 - [Check Completeness of a Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/check_completeness.py) (! DFS/Tree)
-- [Binary Tree Vertical Order Traversal]() (! BFS/Tree - Revisit)
+- [Binary Tree Vertical Order Traversal](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/vertical_order_traversal.py) (! BFS/Tree - Revisit)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
