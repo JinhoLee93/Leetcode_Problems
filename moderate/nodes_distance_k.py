@@ -8,7 +8,9 @@
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
         graph = defaultdict(list)
+        res = []
         
+        # Make a graph with DFS
         def dfs(parent, child):
             if parent and child:
                 graph[parent.val].append(child.val)
@@ -19,21 +21,20 @@ class Solution:
             
             if child.right:
                 dfs(child, child.right)
-        
+                
         dfs(None, root)
-        
         bfs = [target.val]
         visited = set(bfs)
         
-        for i in range(k):
+        for _ in range(k):
             new = []
             
             for node in bfs:
-                for connected in graph[node]:
-                    if connected not in visited:
-                        new.append(connected)
-            
+                for undirected in graph[node]:
+                    if undirected not in visited:
+                        new.append(undirected)
+                        visited.add(undirected)
+                        
             bfs = new
-            visited |= set(bfs)
             
         return bfs
