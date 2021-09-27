@@ -178,7 +178,7 @@
 - [Smallest Subtree with All the Deepest Nodes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/smallest_subtree.py) (! DFS/Tree/Two Passes - Revisit)
 - [All Nodes Distance K in Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/nodes_distance_k.py) (! DFS/Tree/Graph)
 - [Brace Expansion](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/brace_expansion.py) (! Backtracking)
-- [Decode String]() (! Stack/Queue)
+- [Decode String](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/decode_string.py) (! Stack/Queue - Revisit)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
