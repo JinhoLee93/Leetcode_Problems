@@ -181,7 +181,7 @@
 - [Decode String](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/decode_string.py) (! Stack/Queue - Revisit)
 - [Minesweeper](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/minesweeper.py) (! DFS)
 - [Flatten Nested List Iterator](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/flatten_nested_list.py) (! Queue)
-- [Zigzag Iterator]() (! Queue)
+- [Zigzag Iterator](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/zigzag_iterator.py) (! Queue)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
