@@ -185,7 +185,7 @@
 - [Valid Sudoku](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/valid_sudoku.py) (! Matrix)
 - [Largest BST Subtree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/largest_BST_tree.py) (! Tree)
 - [Maximal Square](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximal_square.py) (! DP)
-- [Generate Parentheses]() (! Backtracking)
+- [Generate Parentheses](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/generate_parentheses.py) (! Backtracking)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
