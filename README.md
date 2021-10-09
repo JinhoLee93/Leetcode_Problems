@@ -194,7 +194,8 @@
 - [Path Sum III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/path_sum_iii.py) (! DFS)
 - [Nested List Weight Sum II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/nested_list_weight_sum_ii.py) (! Stack)
 - [Nested List Weight Sum I](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/nested_list_weight_sum.py) (! Stack/Queue)
-- [Subarray Sum Equals K](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/subarray_sum_equals_k.py) (! Hash Table)
+- [Subarray Sum Equals K](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/subarray_sum_equals_k.py) (! Hash Table/Prefix Sum)
+- [Continuous Subarray Sum]() (! Hash Table/Prefix Sum)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
