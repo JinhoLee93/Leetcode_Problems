@@ -1,17 +1,14 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        count = 0
-        indicies = defaultdict()
+        count, cur_sum = 0, 0
+        sums = defaultdict(int)
         
-        for idx, val in enumerate(nums):
-            indicies[idx] = val + indicies.get(idx - 1, 0)
-            
-        for i in range(len(indicies)):
-            if indicies[i] == k:
-                count += 1
-            
-            for j in range(i): 
-                if indicies[i] - indicies[j] == k:
-                    count += 1
+        for num in nums:
+            cur_sum += num
+
+            if cur_sum - k in sums:
+                count += sums[cur_sum - k]
+                
+            sums[cur_sum] += 1
             
         return count
