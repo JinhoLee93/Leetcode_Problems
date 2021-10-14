@@ -201,8 +201,8 @@
 - [Max Consecutive Ones II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/max_consecutive_ones_ii.py) (! Sliding Windows - Revisit)
 - [Max Consecutive Ones III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/max_consecutive_ones_iii.py) (! Sliding Windows)
 - [Range Addition](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/range_addition.py) (! Partial Sum - Revisit)
-- [Is Graph Bipartite?](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/is_bipartite.py) (! Graph)
-- [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows)
+- [Is Graph Bipartite?](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/is_bipartite.py) (! Graph *)
+- [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
 - [Merge k Sorted Lists](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/merge_k_sorted_lists.py) (! Linked List - Revisit for Heap, For Palantir Prep)
