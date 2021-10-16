@@ -201,6 +201,7 @@
 - [Max Consecutive Ones II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/max_consecutive_ones_ii.py) (! Sliding Windows - Revisit)
 - [Max Consecutive Ones III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/max_consecutive_ones_iii.py) (! Sliding Windows)
 - [Range Addition](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/range_addition.py) (! Partial Sum - Revisit)
+- [Beautiful Arrangement]() (! Backtracking)
 - [Is Graph Bipartite?](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/is_bipartite.py) (! Graph *)
 - [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
