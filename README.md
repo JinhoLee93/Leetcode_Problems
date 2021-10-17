@@ -70,6 +70,7 @@
 - [Reverse List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_string.py) (! list.reverse(), Two Pointers)
 - [Rectangle Overlap](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/rectangle_overlap.py) (Samsung)
 - [Max Consecutive Ones](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/max_consecutive_ones.py)
+- [Range Addition II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/range_addition_ii.py) (! Math)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Linked List Cycle II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/linked_list_cycle_ii.py) 
