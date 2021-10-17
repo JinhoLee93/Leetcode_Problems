@@ -204,7 +204,7 @@
 - [Range Addition](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/range_addition.py) (! Partial Sum - Revisit)
 - [Beautiful Arrangement](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/beautiful_arrangement.py) (! Backtracking)
 - [Pairs of Songs With Total Durations Divisible by 60](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/pairs_of_songs_divi_60.py) (! Hash Table)
-- [Minimum Cost to Connect Sticks]() (! Heap)
+- [Minimum Cost to Connect Sticks](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/minimum_sticks.py) (! Heap)
 - [Is Graph Bipartite?](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/is_bipartite.py) (! Graph *)
 - [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
