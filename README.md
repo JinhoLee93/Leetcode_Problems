@@ -213,6 +213,7 @@
 - [Perfect Squares](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/perfect_squares.py) (! DP)
 - [4 Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/4_sum.py) (! Array/Sorting)
 - [Swap Nodes in Pairs](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/swap_nodes_in_pairs.py) (! Linked List)
+- [Swapping Nodes in a Linked List](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/swapping_nodes_linked_list.py) (! Linked List)
 - [Is Graph Bipartite?](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/is_bipartite.py) (! Graph *)
 - [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
