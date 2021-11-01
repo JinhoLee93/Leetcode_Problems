@@ -9,34 +9,32 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
-        visited = {}
+        l = {} 
         
-        def getClonedNode(node):
-            if node:
-                if node in visited:
-                    
-                    return visited[node]
+        def randomGen(node): 
+            if not node:
                 
-                else:
-                    visited[node] = Node(node.val, None, None)
-                    
-                    return visited[node]
+                return node 
+            
+            if node in l:
                 
-            return None
-        
-        if not head:
+                return l[node]
             
-            return head
-        
-        old = head
-        new = Node(old.val, None, None)
-        visited[old] = new
-        
-        while old:
-            new.random = getClonedNode(old.random)
-            new.next = getClonedNode(old.next)
+            clone = Node(node)
+            l[node] = clone
             
-            old = old.next
-            new = new.next
+            return l[node]
         
-        return visited[head]
+        def dfs(node):
+            if not node:
+                
+                return node
+            
+            clone = Node(node.val)
+            l[node] = clone
+            l[node].next = dfs(node.next)
+            l[node].random = randomGen(node.random)
+            
+            return l[node]
+        
+        return dfs(head)
