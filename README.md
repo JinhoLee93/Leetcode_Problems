@@ -223,6 +223,7 @@
 - [Permutation II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/permutation.py) (! Backtracking/Hash Set)
 - [Clone N-ary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/clone_nary_tree.py) (! Tree/Cloning)
 - [Clone Binary Tree with Random Pointer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/clone_b_tree_with_r.py) (! Tree/Cloning)
+- [Next Permutation](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/next_permutation.py) (! Array) 
 - [Is Graph Bipartite?](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/is_bipartite.py) (! Graph *)
 - [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
