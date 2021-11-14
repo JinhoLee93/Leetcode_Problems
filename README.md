@@ -50,7 +50,7 @@
 - [Number of 1 Bit](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/number_of_bits.py) (! Binary)
 - [Happy Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/happy_number.py)
 - [Remove Linked List Elements](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/remove_linked_list.py)
-- [Count Primes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/count_primes.py)
+- [Count Primes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/count_primes.py) (! Sieves of Eratosthenes/Number Theory)
 - [Isomorphic Strings](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/isomorphic_strings.py)
 - [Contain Duplicate](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate.py) (! Array)
 - [Contain Duplicate II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/contain_duplicate_ii.py) (! Array - For Palantir Prep)
