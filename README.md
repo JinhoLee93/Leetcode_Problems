@@ -232,5 +232,6 @@
 - [Median of Two Sorted Arrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/median_of_two_sorted_arrays.py) (! heap)
 - [Sliding Window Median](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/sliding_window_median.py) (! Heap/Array)
 - [Sliding Window Maximum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/sliding_window_maximum.py) (! Deque)
+- [Implement Strstr()](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/strstr.py) (! KMP)
 - [Binary Tree Maximum Path Sum]() (! Tree)
 
