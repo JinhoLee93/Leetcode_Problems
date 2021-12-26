@@ -1,21 +1,8 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        res = defaultdict(list)
+        anagrams = defaultdict(list)
         
-        for anagram in strs:
-            og = anagram
-            anagram = list(anagram)
-            anagram.sort()
-            anagram = "".join(anagram)
-            
-            if not res:
-                res[anagram].append(og)
-                continue
-            
-            if anagram in res:
-                res[anagram].append(og)
-                
-            else:
-                res[anagram].append(og)
-                
-        return [val for val in res.values()]
+        for ana in strs:
+            anagrams["".join(sorted(ana))].append(ana)
+        
+        return [val for val in anagrams.values()]
