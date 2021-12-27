@@ -234,6 +234,7 @@
 - [Insert Delete GetRandom O(1)](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/getrandom.py) (! Set/Random)
 - [Gas Station](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/gas_station.py) (! Greedy)
 - [My Calendar I](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/my_calendar.py) (! Interval)
+- [Missing Element in Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/missing_element.py) (! Counting)
 - [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
