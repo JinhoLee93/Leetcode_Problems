@@ -87,7 +87,7 @@
 - [Integer to Roman](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/integer_to_roman.py)
 - [3Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/3sum.py) (! Array)
 - [3Sum Closest](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/3sum_closest.py)
-- [Letter Combinations of a Phone Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/letter_combinations.py) (Samsung)
+- [Letter Combinations of a Phone Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/letter_combinations.py) (! Backtracking)
 - [Word Search](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/word_search.py) (! Backtracking)
 - [Contain Duplicates III](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/contain_duplicate_iii.py) (! For Palantir Prep)
 - [Product of Array Except Self](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/product_of_array.py) (! Array - Revisit)
