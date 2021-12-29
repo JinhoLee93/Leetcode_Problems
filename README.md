@@ -2,7 +2,6 @@
 
 **[Easy](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/easy)**
 - [Two Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/two_sum.py) (! Array)
-- [Reverse Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_integer.py)
 - [Palindrome Number](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/palindrome_number.py)
 - [Roman to Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/roman_to_integer.py)
 - [Longest Common Prefix](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/longest_common_prefix.py)
@@ -237,6 +236,7 @@
 - [Missing Element in Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/missing_element.py) (! Counting)
 - [Design a Stack With Increment Operation](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/design_stack.py) (! Stack)
 - [Add Two Numbers](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/add_two_numbers_I.py) (! Linked List)
+- [Reverse Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_integer.py)
 - [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
