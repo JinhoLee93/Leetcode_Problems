@@ -1,25 +1,35 @@
-# Runtime: 28 ms, Memory usage: 14.3 MB
 class Solution:
     def reverse(self, x: int) -> int:
-        digits = list(str(x))
-        digits = digits[::-1]
+        rev, res, neg = 0, "", False
+        x = list(str(x))
         
-        # edge case #1 (If the given number is negative, the result shouldn't reverse the sign.)
-        if x < 0:
-            temp = digits[len(digits) - 1]
-            digits.pop()
-            digits.insert(0, temp)
+        if x[0] == '0':
+            
+            return 0
+        
+        if x[0] == '-':
+            neg = True
+            x.reverse()
+            x.pop()   
+        
+        else:
+            x.reverse()
+            
+        i = 0
+        while x[i] == '0':
+            i += 1
+        
+        for j in range(i, len(x)):
+            res += x[j]
+        
+        if neg:
+            res = "-" + res
+        
+        res = int(res)
                 
-        number = str()
+        if -2 ** 31 < res < 2 ** 31 - 1:
+    
+            return res
+    
+        return 0
         
-        for i in range(len(digits)):
-            number += digits[i]
-        
-        digit = int(digit)
-        
-        # edge case #2 (The numger must be bigger than -2^31 or smaller than 2^31 - 1.)
-        if number < (-2)**31 or number > (2**31 - 1):
-            number = 0
-            
-            
-        return number
