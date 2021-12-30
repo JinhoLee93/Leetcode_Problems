@@ -237,7 +237,8 @@
 - [Missing Element in Sorted Array](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/missing_element.py) (! Counting)
 - [Design a Stack With Increment Operation](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/design_stack.py) (! Stack)
 - [Add Two Numbers](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/add_two_numbers_I.py) (! Linked List)
-- [Reverse Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_integer.py)
+- [Reverse Integer](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/reverse_integer.py) (! String)
+- [Delete and Earn](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/delete_and_earn.py) (! DP)
 - [Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/maximum_non_overlap.py) (! Sliding Windows *)
  
 **[Hard](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/hard)**
