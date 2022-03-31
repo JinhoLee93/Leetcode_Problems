@@ -74,6 +74,7 @@
 - [Find Pivot Index](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/find_pivot.py) (! Prefix Sum)
 - [Range Sum of BST](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/range_sum_of_BST.py) (! DFS)
 - [Find All The Lonely Nodes](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/find_all_the_lonely_nodes.py) (! DFS)
+- [Increasing Order Search Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/easy/increasingorderst.py) (! DFS)
 
 **[Moderate](https://github.com/JinhoLee93/Leetcode_Problems/tree/main/moderate)**
 - [Linked List Cycle II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/moderate/linked_list_cycle_ii.py) 
