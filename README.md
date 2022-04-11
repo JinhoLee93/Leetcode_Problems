@@ -251,7 +251,7 @@
 - [Find Median from Data Stream](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/find_median_from_data.py) (! Heap/Double Heap - Revisit)
 - [Median of Two Sorted Arrays](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/median_of_two_sorted_arrays.py) (! heap)
 - [Sliding Window Median](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/sliding_window_median.py) (! Heap/Array)
-- [Sliding Window Maximum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/sliding_window_maximum.py) (! Deque)
+- [Sliding Window Maximum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/sliding_window_maximum.py) (! Deque/Sliding Window)
 - [Implement Strstr()](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/strstr.py) (! KMP)
 - [Regular Expression Matching](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/regular_expression_matching.py) (! DP)
 - [Binary Tree Maximum Path Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/binary_tree_maximum_path_sum.py) (! Tree)
