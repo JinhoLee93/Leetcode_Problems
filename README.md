@@ -257,4 +257,5 @@
 - [Binary Tree Maximum Path Sum](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/binary_tree_maximum_path_sum.py) (! Tree)
 - [Serialize and Deserialize Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/serialize_deserialize_bn.py) (! Tree)
 - [Minimum Window Substring](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/minimum_window_substring)(! Sliding Window)
+- [N-Queens](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/nqueens.py) (! Backtracking)
 
