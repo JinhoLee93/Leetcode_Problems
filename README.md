@@ -258,4 +258,5 @@
 - [Serialize and Deserialize Binary Tree](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/serialize_deserialize_bn.py) (! Tree)
 - [Minimum Window Substring](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/minimum_window_substring)(! Sliding Window)
 - [N-Queens](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/nqueens.py) (! Backtracking)
+- [N-Queens II](https://github.com/JinhoLee93/Leetcode_Problems/blob/main/hard/nqueens_ii.py) (! Backtracking)
 
